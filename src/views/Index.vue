@@ -296,7 +296,7 @@
                                         </svg>
                                     </div>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                         >Anomaly Detection</a
                                     >
@@ -304,7 +304,7 @@
                                         Detect and respond to unusual patterns and behaviors that may indicate security breaches.
                                     </p>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
                                     >
                                         <svg
@@ -343,7 +343,7 @@
                                         </svg>
                                     </div>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                         >Enhanced Security</a
                                     >
@@ -351,7 +351,7 @@
                                         Implemented with best security practices, including encryption, secure authentication, etc.
                                     </p>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
                                     >
                                         <svg
