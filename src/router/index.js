@@ -4,7 +4,6 @@ import Home from '../views/Index.vue';
 
 const routes = [
   { path: '/', component: Home },
-
 ];
 
 const router = createRouter({

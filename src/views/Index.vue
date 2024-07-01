@@ -1,6 +1,5 @@
-<template>
-    <div class="text-2xl text-blue-500">
-      hello
-        
+<<template>
+    <div>
+        hello
     </div>
 </template>
