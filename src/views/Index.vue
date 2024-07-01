@@ -577,7 +577,7 @@
                                     <img src="/assets/images/picm.jpeg" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
                                 </div>
                                 <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                    Ebite Marvis Ogochukwu
+                                    Ebite Marvin Ogochukwu
                                 </h4>
                                 <h6 class="text-sm font-bold">Software Developer</h6>
                             </div>                            
