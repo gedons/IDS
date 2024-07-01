@@ -26,88 +26,7 @@
                                 </div>
                                 <ul>
                                     <li><a href="index.html" class="active">Home</a></li>
-                                    <li class="group relative">
-                                        <a href="javascript:;">
-                                            Landing
-                                            <div class="transition duration-500 group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M19 9L12 15L10.25 13.5M5 9L7.33333 11"
-                                                        stroke="currentColor"
-                                                        stroke-width="1.5"
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
-                                                    />
-                                                </svg>
-                                            </div>
-                                        </a>
-                                        <div class="submenu">
-                                            <a href="crypto.html">Crypto Currency</a>
-                                            <a href="modern-saas.html">Modern Saas </a>
-                                            <a href="real-estate.html">Real Estate </a>
-                                            <a href="healthcare.html">Health Care </a>
-                                            <a href="marketing.html">Sales Marketing </a>
-                                            <a href="application.html">Application </a>
-                                            <a href="hotel-resort.html">Hotel & Resort </a>
-                                            <a href="nft.html">NFT Marketplace </a>
-                                            <a href="online-courses.html"> Online Courses </a>
-                                            <a href="restaurant.html"> Restaurant </a>
-                                            <a href="consulting.html"> Consulting </a>
-                                            <a href="creative-agency.html"> Creative Agency </a>
-                                            <a href="insurance.html"> Insurance </a>
-                                            <a href="photography.html"> Photography </a>
-                                            <a href="construction.html"> Construction </a>
-                                            <a href="blog-landing.html"> Blog </a>
-                                            <a href="event-concert.html">
-                                                Event Concert
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                            <a href="gym.html">
-                                                GYM
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                            <a href="job-placement.html">
-                                                Job Placement
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                            <a href="online-payments.html">
-                                                Online Payments
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                            <a href="personal-portfolio.html">
-                                                Personal Portfolio
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                            <a href="portfolio-landing.html">
-                                                Portfolio
-                                                <span
-                                                    class="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                                >
-                                                    New
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </li>
+                                    
                                     <li>
                                         <a href="portfolio.html">Portfolio</a>
                                     </li>
@@ -116,13 +35,7 @@
                                     </li>
                                     <li>
                                         <a href="team.html">Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="about-us.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="career.html">Career</a>
-                                    </li>
+                                    </li>                                    
                                     <li
                                         class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
                                     >
@@ -290,12 +203,13 @@
                             <div class="relative bg-[url(../assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
                                 <div class="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-1/2">
                                     <h2 class="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
-                                        Make your <span class="italic text-primary">team</span> <span class="italic text-secondary">work</span> together
+                                        Protect Your <span class="italic text-primary"> Network in</span> <span class="italic text-secondary"> Real-Time </span> 
+                                        
                                     </h2>
                                     <p class="my-8 text-lg lg:w-[90%]">
-                                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.
+                                        Advanced Cloud-Based Intrusion Detection System to Secure Your Digital Assets
                                     </p>
-                                    <a href="about-us.html" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">read more</a>
+                                    <a href="about-us.html" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Get Started</a>
                                 </div>
                                 <div
                                     class="bottom-0 mx-auto w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute xl:w-[650px]"                                    
