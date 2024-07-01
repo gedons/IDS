@@ -194,14 +194,14 @@
             <div class="-mt-[82px] flex-grow overflow-x-hidden lg:-mt-[106px]">
                 <div class="overflow-hidden bg-black pt-[82px] sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] lg:pt-[106px]">
                     <div class="relative">
-                        <img src="../assets/images/banner-lefticon.png" alt="banner-lefticon" class="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
+                        <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" class="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
                         <img
-                            src="../assets/images/banner-rightIcon.png"
+                            src="/assets/images/banner-rightIcon.png"
                             alt="banner-rightIcon"
                             class="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]"
                         />
                         <div class="container">
-                            <div class="relative bg-[url(../assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
+                            <div class="relative bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
                                 <div class="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-1/2">
                                     <h2 class="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
                                         Protect Your <span class="italic text-primary"> Network in</span> <span class="italic text-secondary"> Real-Time </span> 
@@ -215,14 +215,14 @@
                                 <div
                                     class="bottom-0 mx-auto w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute xl:w-[650px]"                                    
                                 >
-                                    <img src="../assets/images/home-banner-icon.svg" alt="home-banner-icon" class="rtl:rotate-y-180" />
+                                    <img src="/assets/images/home-banner-icon.svg" alt="home-banner-icon" class="rtl:rotate-y-180" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <section class="bg-[url(../assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
+                <section class="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                     <div class="container">
                         <div class="heading text-center">
                             <h6>High - Impact Services</h6>
@@ -557,7 +557,7 @@
                                     </div>
                                 </div>
                                 <div class="top-1/2 mx-auto mt-10 ltr:right-5 rtl:left-5 md:w-[45%] lg:mt-0 xl:absolute xl:-translate-y-1/2">
-                                    <img src="../assets/images/box-img.png" alt="box-img" class="w-full rtl:rotate-y-180" />
+                                    <img src="/assets/images/box-img.png" alt="box-img" class="w-full rtl:rotate-y-180" />
                                 </div>
                             </div>
                         </div>
@@ -565,7 +565,7 @@
                    
                 </section>
 
-                <section class="bg-[url(../assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
+                <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                     <div class="container">
                         <div class="heading text-center">
                             <h6>Meet Me</h6>
@@ -574,7 +574,7 @@
                         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                             <div class="group cursor-pointer text-center">
                                 <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                    <img src="../assets/images/team-member-1.png" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
+                                    <img src="/assets/images/team-member-1.png" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
                                 </div>
                                 <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                     Ebite Marvis
@@ -657,9 +657,9 @@
                                     </a>
                                 </li>
                             </ul>
-                            <img src="../assets/images/footer-shape.png" alt="footer-shape" class="absolute bottom-0 right-0 sm:left-0" />
+                            <img src="/assets/images/footer-shape.png" alt="footer-shape" class="absolute bottom-0 right-0 sm:left-0" />
                             <img
-                                src="../assets/images/footer-shape-dark.png"
+                                src="/assets/images/footer-shape-dark.png"
                                 alt="footer-shape-dark"
                                 class="absolute bottom-0 right-0 hidden dark:block sm:left-0"
                             />
