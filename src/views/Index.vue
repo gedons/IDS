@@ -6,7 +6,8 @@
             <header id="top-header" class="sticky top-0 z-50 bg-black/10 transition duration-300">
                 <div class="container">
                     <div class="flex items-center justify-between py-5 lg:py-0">
-                        <a href="index.html"><img src="../assets/images/logo.png" alt="logo" class="h-10" /></a>
+                        
+                        <p class="h-10 text-4xl text-secondary">SecureNet</p>
                         <div class="flex items-center">
                             <div onclick="toggleMenu()" class="overlay fixed inset-0 z-[51] hidden bg-black/60 lg:hidden"></div>
                             <div class="menus">
@@ -25,16 +26,16 @@
                                     </button>
                                 </div>
                                 <ul>
-                                    <li><a href="index.html" class="active">Home</a></li>
+                                    <li><a href="#" class="active">Home</a></li>
                                     
                                     <li>
-                                        <a href="portfolio.html">Portfolio</a>
+                                        <a href="#">Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="services.html">Service</a>
+                                        <a href="#">Service</a>
                                     </li>
                                     <li>
-                                        <a href="team.html">Team</a>
+                                        <a href="#">Team</a>
                                     </li>                                    
                                     <li
                                         class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
@@ -209,7 +210,7 @@
                                     <p class="my-8 text-lg lg:w-[90%]">
                                         Advanced Cloud-Based Intrusion Detection System to Secure Your Digital Assets
                                     </p>
-                                    <a href="about-us.html" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Get Started</a>
+                                    <a href="#" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Get Started</a>
                                 </div>
                                 <div
                                     class="bottom-0 mx-auto w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute xl:w-[650px]"                                    
@@ -225,7 +226,7 @@
                     <div class="container">
                         <div class="heading text-center">
                             <h6>High - Impact Services</h6>
-                            <h4>We help Brands with</h4>
+                            <h4>App Features</h4>
                         </div>
                         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                             <div>
@@ -248,15 +249,15 @@
                                         </svg>
                                     </div>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                        >UI/UX Design</a
+                                        >Real-Time Monitoring</a
                                     >
                                     <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                        We provide services with the best designs than our designer team for your business.
+                                        Stay ahead of threats with continuous network traffic analysis and instant alert notifications.
                                     </p>
                                     <a
-                                        href="services-detail.html"
+                                        href="#"
                                         class="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
                                     >
                                         <svg
@@ -297,10 +298,10 @@
                                     <a
                                         href="services-detail.html"
                                         class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                        >Web Development</a
+                                        >Anomaly Detection</a
                                     >
                                     <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                        We help develop company websites to be more professional and attractive
+                                        Detect and respond to unusual patterns and behaviors that may indicate security breaches.
                                     </p>
                                     <a
                                         href="services-detail.html"
@@ -344,10 +345,10 @@
                                     <a
                                         href="services-detail.html"
                                         class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                        >Digital Marketing</a
+                                        >Enhanced Security</a
                                     >
                                     <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                        We also help you market your products through an online marketplace.
+                                        Implemented with best security practices, including encryption, secure authentication, etc.
                                     </p>
                                     <a
                                         href="services-detail.html"
@@ -375,191 +376,9 @@
                 <section class="py-14 dark:!bg-none lg:py-[100px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 54.69%)">
                     <div class="container">
                         <div class="heading text-center">
-                            <h6>Company Facts</h6>
-                            <h4>We are proud of our team</h4>
-                        </div>
-                        <div class="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-4">
-                            <div>
-                                <div
-                                    class="group flex cursor-pointer items-baseline rounded-3xl border border-white bg-white py-8 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-gray-dark dark:hover:bg-secondary"
-                                >
-                                    <div>
-                                        <svg
-                                            width="26"
-                                            height="26"
-                                            viewBox="0 0 26 26"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="text-secondary transition dark:group-hover:text-black"
-                                        >
-                                            <g clip-path="url(#clip0_6_2530)">
-                                                <path
-                                                    opacity="0.3"
-                                                    d="M9.26505 23.1907C8.867 22.5979 9.34238 21.8701 10.0565 21.8701H15.3123C16.0264 21.8701 16.5018 22.5979 16.1038 23.1907C15.3466 24.3185 14.3 25.2316 13.0656 25.8283C12.8248 25.9448 12.544 25.9448 12.3032 25.8283C11.0688 25.2316 10.0222 24.3185 9.26505 23.1907Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    d="M19.7602 15.3657C19.7602 15.6093 19.8491 15.8444 20.0102 16.0271L21.8688 18.1348C22.0299 18.3175 22.1188 18.5527 22.1188 18.7962V19.6908C22.1188 20.2431 21.6711 20.6908 21.1188 20.6908H4.25C3.69772 20.6908 3.25 20.2431 3.25 19.6908V18.7962C3.25 18.5527 3.33888 18.3175 3.49997 18.1348L5.35863 16.0271C5.51971 15.8444 5.6086 15.6093 5.6086 15.3657V8.89781C5.6086 4.89015 8.41975 1.46516 12.3859 0.0983C12.5792 0.0316815 12.7896 0.0316814 12.9829 0.0982998C16.949 1.46516 19.7602 4.89015 19.7602 8.89781V15.3657ZM12.6844 11.2564C13.3099 11.2564 13.9098 11.0079 14.3522 10.5656C14.7945 10.1233 15.043 9.52335 15.043 8.89781C15.043 8.27227 14.7945 7.67235 14.3522 7.23003C13.9098 6.78771 13.3099 6.53921 12.6844 6.53921C12.0589 6.53921 11.4589 6.78771 11.0166 7.23003C10.5743 7.67235 10.3258 8.27227 10.3258 8.89781C10.3258 9.52335 10.5743 10.1233 11.0166 10.5656C11.4589 11.0079 12.0589 11.2564 12.6844 11.2564Z"
-                                                    fill="currentColor"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_6_2530">
-                                                    <rect width="26" height="26" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-4 rtl:pr-4">
-                                        <h4
-                                            class="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black"
-                                            data-vanilla-counter
-                                            data-start-at="0"
-                                            data-end-at="10"
-                                            data-time="4000"
-                                            data-delay="1000"
-                                            data-format="{}+"
-                                        ></h4>
-                                        <span class="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Year in Business</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div
-                                    class="group flex cursor-pointer items-baseline rounded-3xl border border-white bg-white py-8 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-gray-dark dark:hover:bg-secondary"
-                                >
-                                    <div>
-                                        <svg
-                                            width="26"
-                                            height="26"
-                                            viewBox="0 0 26 26"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="text-secondary transition dark:group-hover:text-black"
-                                        >
-                                            <g clip-path="url(#clip0_6_2631)">
-                                                <path
-                                                    opacity="0.3"
-                                                    d="M4.2757 15.6078C4.27493 15.6078 4.27425 15.6084 4.27403 15.6091C4.06737 16.3065 3.94528 17.0263 3.9104 17.7528L3.9 18.2V25C3.9 25.5523 3.45228 26 2.9 26H1C0.447715 26 1.18712e-07 25.5523 1.18712e-07 25V20.15C-0.000255849 19.0289 0.413437 17.9471 1.16173 17.1122C1.91001 16.2773 2.94021 15.7481 4.0547 15.626L4.2757 15.6078ZM22.0225 17.0047C21.9324 16.3161 22.4694 15.6613 23.1157 15.9157C23.7351 16.1595 24.299 16.5384 24.7632 17.0317C25.5575 17.8757 25.9998 18.991 26 20.15V25.0001C26 25.5523 25.5523 26 25 26H23.1C22.5477 26 22.1 25.5523 22.1 25V18.2C22.1 17.7948 22.0737 17.3958 22.0225 17.0047ZM4.55 7.80005C5.41195 7.80005 6.2386 8.14246 6.8481 8.75195C7.45759 9.36145 7.8 10.1881 7.8 11.05C7.8 11.912 7.45759 12.7387 6.8481 13.3481C6.2386 13.9576 5.41195 14.3 4.55 14.3C3.68805 14.3 2.8614 13.9576 2.2519 13.3481C1.64241 12.7387 1.3 11.912 1.3 11.05C1.3 10.1881 1.64241 9.36145 2.2519 8.75195C2.8614 8.14246 3.68805 7.80005 4.55 7.80005ZM21.45 7.80005C22.312 7.80005 23.1386 8.14246 23.7481 8.75195C24.3576 9.36145 24.7 10.1881 24.7 11.05C24.7 11.912 24.3576 12.7387 23.7481 13.3481C23.1386 13.9576 22.312 14.3 21.45 14.3C20.588 14.3 19.7614 13.9576 19.1519 13.3481C18.5424 12.7387 18.2 11.912 18.2 11.05C18.2 10.1881 18.5424 9.36145 19.1519 8.75195C19.7614 8.14246 20.588 7.80005 21.45 7.80005Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    d="M13 11.7C14.7239 11.7 16.3772 12.3848 17.5962 13.6038C18.8152 14.8228 19.5 16.4761 19.5 18.2V25C19.5 25.5523 19.0523 26 18.5 26H7.5C6.94772 26 6.5 25.5523 6.5 25V18.2C6.5 16.4761 7.18482 14.8228 8.40381 13.6038C9.62279 12.3848 11.2761 11.7 13 11.7ZM13 0C14.3791 0 15.7018 0.547856 16.677 1.52304C17.6521 2.49823 18.2 3.82087 18.2 5.2C18.2 6.57913 17.6521 7.90177 16.677 8.87696C15.7018 9.85214 14.3791 10.4 13 10.4C11.6209 10.4 10.2982 9.85214 9.32304 8.87696C8.34786 7.90177 7.8 6.57913 7.8 5.2C7.8 3.82087 8.34786 2.49823 9.32304 1.52304C10.2982 0.547856 11.6209 0 13 0Z"
-                                                    fill="currentColor"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_6_2631">
-                                                    <rect width="26" height="26" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-4 rtl:pr-4">
-                                        <h4
-                                            class="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black"
-                                            data-vanilla-counter
-                                            data-start-at="0"
-                                            data-end-at="120"
-                                            data-time="4000"
-                                            data-delay="1000"
-                                            data-format="{}+"
-                                        ></h4>
-                                        <span class="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Team Members</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div
-                                    class="group flex cursor-pointer items-baseline rounded-3xl border border-white bg-white py-8 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-gray-dark dark:hover:bg-secondary"
-                                >
-                                    <div>
-                                        <svg
-                                            width="26"
-                                            height="26"
-                                            viewBox="0 0 26 26"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="text-secondary transition dark:group-hover:text-black"
-                                        >
-                                            <g clip-path="url(#clip0_6_2641)">
-                                                <path
-                                                    opacity="0.3"
-                                                    d="M13 26C5.8201 26 0 20.1799 0 13C0 5.8201 5.8201 0 13 0C20.1799 0 26 5.8201 26 13C26 20.1799 20.1799 26 13 26Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    d="M6.49998 14.3C6.49998 16.024 7.18479 17.6773 8.40378 18.8962C9.62277 20.1152 11.2761 20.8 13 20.8C14.7239 20.8 16.3772 20.1152 17.5962 18.8962C18.8152 17.6773 19.5 16.024 19.5 14.3H16.9C16.9 15.3344 16.4891 16.3264 15.7577 17.0578C15.0263 17.7892 14.0343 18.2 13 18.2C11.9656 18.2 10.9736 17.7892 10.2423 17.0578C9.51087 16.3264 9.09998 15.3344 9.09998 14.3H6.49998ZM7.79998 11.7C8.31715 11.7 8.81314 11.4946 9.17883 11.1289C9.54453 10.7632 9.74998 10.2672 9.74998 9.75005C9.74998 9.23288 9.54453 8.73689 9.17883 8.37119C8.81314 8.00549 8.31715 7.80005 7.79998 7.80005C7.2828 7.80005 6.78681 8.00549 6.42112 8.37119C6.05542 8.73689 5.84998 9.23288 5.84998 9.75005C5.84998 10.2672 6.05542 10.7632 6.42112 11.1289C6.78681 11.4946 7.2828 11.7 7.79998 11.7ZM18.2 11.7C18.7171 11.7 19.2131 11.4946 19.5788 11.1289C19.9445 10.7632 20.15 10.2672 20.15 9.75005C20.15 9.23288 19.9445 8.73689 19.5788 8.37119C19.2131 8.00549 18.7171 7.80005 18.2 7.80005C17.6828 7.80005 17.1868 8.00549 16.8211 8.37119C16.4554 8.73689 16.25 9.23288 16.25 9.75005C16.25 10.2672 16.4554 10.7632 16.8211 11.1289C17.1868 11.4946 17.6828 11.7 18.2 11.7Z"
-                                                    fill="currentColor"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_6_2641">
-                                                    <rect width="26" height="26" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-4 rtl:pr-4">
-                                        <h4
-                                            class="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black"
-                                            data-vanilla-counter
-                                            data-start-at="0"
-                                            data-end-at="350"
-                                            data-time="4000"
-                                            data-delay="1000"
-                                            data-format="{}+"
-                                        ></h4>
-                                        <span class="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Happy Clients</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div
-                                    class="group flex cursor-pointer items-baseline rounded-3xl border border-white bg-white py-8 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-gray-dark dark:hover:bg-secondary"
-                                >
-                                    <div>
-                                        <svg
-                                            width="26"
-                                            height="26"
-                                            viewBox="0 0 26 26"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="text-secondary transition dark:group-hover:text-black"
-                                        >
-                                            <g clip-path="url(#clip0_6_2651)">
-                                                <path
-                                                    d="M1.31194 8.73474H24.6881C24.8695 8.73466 25.049 8.77223 25.2151 8.84507C25.3813 8.91791 25.5305 9.02444 25.6534 9.15792C25.7763 9.29141 25.8702 9.44894 25.929 9.62055C25.9879 9.79216 26.0105 9.97413 25.9955 10.1549L24.9018 23.2684C24.8745 23.5961 24.7251 23.9016 24.4832 24.1243C24.2413 24.347 23.9245 24.4708 23.5957 24.4709H2.40429C2.07547 24.4708 1.75871 24.347 1.5168 24.1243C1.27489 23.9016 1.12548 23.5961 1.09819 23.2684L0.00452488 10.1549C-0.010534 9.97413 0.0120899 9.79216 0.0709658 9.62055C0.129842 9.44894 0.223688 9.29141 0.346571 9.15792C0.469454 9.02444 0.618698 8.91791 0.784866 8.84507C0.951034 8.77223 1.13051 8.73466 1.31194 8.73474Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    opacity="0.3"
-                                                    d="M14.5614 3.1965C14.7489 3.38404 15.0033 3.4894 15.2685 3.4894H23.4908C23.8386 3.4894 24.1722 3.62756 24.4181 3.87348C24.664 4.11941 24.8022 4.45296 24.8022 4.80075V5.1121C24.8022 5.66438 24.3545 6.1121 23.8022 6.1121H2.19788C1.64559 6.1121 1.19788 5.66438 1.19788 5.1121V2.17805C1.19788 1.83026 1.33604 1.49671 1.58196 1.25078C1.82789 1.00486 2.16143 0.866699 2.50923 0.866699H11.8174C12.0826 0.866699 12.3369 0.972056 12.5245 1.15959L14.5614 3.1965Z"
-                                                    fill="currentColor"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_6_2651">
-                                                    <rect width="26" height="26" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-4 rtl:pr-4">
-                                        <h4
-                                            class="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black"
-                                            data-vanilla-counter
-                                            data-start-at="0"
-                                            data-end-at="1254"
-                                            data-time="4000"
-                                            data-delay="1000"
-                                            data-format="{}+"
-                                        ></h4>
-                                        <span class="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Project Done</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <h6>Secure Net</h6>
+                            <h4>Intrusion Detection System to Secure Your Assets</h4>
+                        </div>                        
                     </div>
                     <div
                         class="relative my-14 mx-auto border-[10px] border-transparent bg-black py-14 dark:border-black dark:bg-gray-dark lg:my-[100px] lg:py-[100px] xl:max-w-[1440px] xl:rounded-3xl"
@@ -568,8 +387,8 @@
                             <div class="items-end gap-4 lg:flex xl:gap-0">
                                 <div class="lg:w-1/2">
                                     <div class="heading mb-16 text-center ltr:lg:text-left rtl:lg:text-right">
-                                        <h6>What Makes us Different?</h6>
-                                        <h4 class="leading-normal !text-white lg:!leading-[50px]">We bring solutions to make life easier for our customers.</h4>
+                                        <h6>Why SecureNet ?</h6>
+                                        <h4 class="leading-normal !text-white lg:!leading-[50px]">We create a safer digital world where organizations can operate securely and efficiently.</h4>
                                     </div>
                                     <div class="grid gap-x-7 gap-y-12 sm:grid-cols-2">
                                         <div class="flex transition">
@@ -594,8 +413,8 @@
                                                 </svg>
                                             </div>
                                             <div class="ltr:pl-3 rtl:pr-3">
-                                                <h4 class="mb-2 text-lg font-bold text-white">Creativity</h4>
-                                                <p class="font-semibold">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                                                <h4 class="mb-2 text-lg font-bold text-white">Real-Time Monitoring</h4>
+                                                <p class="font-semibold">Stay ahead of threats with continuous network traffic analysis and instant alert notifications.</p>
                                             </div>
                                         </div>
                                         <div class="flex transition">
@@ -667,8 +486,8 @@
                                                 </svg>
                                             </div>
                                             <div class="ltr:pl-3 rtl:pr-3">
-                                                <h4 class="mb-2 text-lg font-bold text-white">Innovative Thinking</h4>
-                                                <p class="font-semibold">There are many variations of passages of Lorem Ipsum available</p>
+                                                <h4 class="mb-2 text-lg font-bold text-white">Anomaly Detection</h4>
+                                                <p class="font-semibold">Detect and respond to unusual patterns and behaviors that may indicate security breaches or malicious activities.</p>
                                             </div>
                                         </div>
                                         <div class="flex transition">
@@ -703,8 +522,8 @@
                                                 </svg>
                                             </div>
                                             <div class="ltr:pl-3 rtl:pr-3">
-                                                <h4 class="mb-2 text-lg font-bold text-white">Rapid Solutions</h4>
-                                                <p class="font-semibold">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                                <h4 class="mb-2 text-lg font-bold text-white">User Management</h4>
+                                                <p class="font-semibold">Control access with role-based permissions, ensuring that only authorized personnel can access sensitive data and functionalities.</p>
                                             </div>
                                         </div>
                                         <div class="flex transition">
@@ -729,9 +548,9 @@
                                                 </svg>
                                             </div>
                                             <div class="ltr:pl-3 rtl:pr-3">
-                                                <h4 class="mb-2 text-lg font-bold text-white">Top-Notch Support</h4>
+                                                <h4 class="mb-2 text-lg font-bold text-white">Enhanced Security</h4>
                                                 <p class="font-semibold">
-                                                    It has survived not only five centuries, but also the leap into electronic typesetting
+                                                    Implemented with best security practices, including encryption, secure authentication, and regular vulnerability assessments.
                                                 </p>
                                             </div>
                                         </div>
@@ -743,105 +562,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
-                            <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Our Project</h6>
-                                <h4>Some of our finest work.</h4>
-                            </div>
-                        </div>
-                        <div class="mb-7">
-                            <ul class="filters home-filter mt-10 flex gap-8 overflow-x-auto whitespace-nowrap pb-3 font-bold lg:mt-0 lg:gap-10">
-                                <li class="active filter" data-filter="all"><button type="button">All Work</button></li>
-                                <li class="filter" data-filter="design"><button type="button" class="transition hover:text-secondary">Design</button></li>
-                                <li class="filter" data-filter="website"><button type="button" class="transition hover:text-secondary">Website</button></li>
-                                <li class="filter" data-filter="app"><button type="button" class="transition hover:text-secondary">Mobile App</button></li>
-                                <li class="filter" data-filter="web"><button type="button" class="transition hover:text-secondary">Web Application</button></li>
-                                <li class="filter" data-filter="ecommerce"><button type="button" class="transition hover:text-secondary">Ecommerce</button></li>
-                            </ul>
-                        </div>
-                        <div class="projects grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                            <div class="project" data-filter="web">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-1.png" alt="project-1" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">Space Landing page</h6>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project" data-filter="ecommerce">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-2.png" alt="project-2" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h6>
-                                        <p>Website, App</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project" data-filter="app">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-3.png" alt="project-3" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">Looking for a quiet place</h6>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project" data-filter="design">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-4.png" alt="project-4" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h6>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project" data-filter="website">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-5.png" alt="project-5" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">Digital Art Guide</h6>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project" data-filter="app">
-                                <div
-                                    class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                                >
-                                    <a href="portfolio-detail.html" class="absolute top-0 left-0 h-full w-full"></a>
-                                    <img src="../assets/images/project-6.png" alt="project-6" class="h-52 w-full rounded-t-3xl object-cover" />
-                                    <div class="p-5 text-sm font-bold">
-                                        <h6 class="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h6>
-                                        <p>Branding, Website, App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </section>
 
                 <section class="bg-[url(../assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                     <div class="container">
                         <div class="heading text-center">
-                            <h6>Meet Our Team</h6>
-                            <h4>Creative Minds</h4>
+                            <h6>Meet Me</h6>
+                            <h4>Creative Mind</h4>
                         </div>
                         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                             <div class="group cursor-pointer text-center">
@@ -849,921 +577,24 @@
                                     <img src="../assets/images/team-member-1.png" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
                                 </div>
                                 <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                    Aditya Patel
+                                    Ebite Marvis
                                 </h4>
-                                <h6 class="text-sm font-bold">Chief Executive Officer</h6>
+                                <h6 class="text-sm font-bold">Software Developer</h6>
                             </div>
-                            <div class="group cursor-pointer text-center">
-                                <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                    <img src="../assets/images/team-member-2.png" alt="team-member-2" class="h-full w-full rounded-3xl object-cover object-top" />
-                                </div>
-                                <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                    Audrey Ramirez
-                                </h4>
-                                <h6 class="text-sm font-bold">Chief Operating Officer</h6>
-                            </div>
-                            <div class="group cursor-pointer text-center">
-                                <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                    <img src="../assets/images/team-member-3.png" alt="team-member-3" class="h-full w-full rounded-3xl object-cover object-top" />
-                                </div>
-                                <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                    James Robinson
-                                </h4>
-                                <h6 class="text-sm font-bold">Chief Financial Officer</h6>
-                            </div>
-                            <div class="group cursor-pointer text-center">
-                                <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                    <img src="../assets/images/team-member-4.png" alt="team-member-4" class="h-full w-full rounded-3xl object-cover object-top" />
-                                </div>
-                                <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                    Daniel Allen
-                                </h4>
-                                <h6 class="text-sm font-bold">Chief Marketing Officer</h6>
-                            </div>
+    
                         </div>
                     </div>
                 </section>
 
-                <section class="bg-gradient-to-b from-white/60 to-transparent py-14 dark:from-white/[0.02] lg:py-[100px]">
-                    <div class="container">
-                        <div class="heading text-center">
-                            <h6>Pricing Plan</h6>
-                            <h4>Choose Affordable Prices</h4>
-                        </div>
-                        <div class="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
-                            <div
-                                class="group flex flex-col rounded-3xl border-2 border-primary bg-white p-6 px-4 transition hover:bg-primary hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"                               
-                            >
-                                <div class="mb-8">
-                                    <h3 class="text-[22px] font-black text-black dark:text-white">Intro</h3>
-                                </div>
-                                <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g opacity="0.3">
-                                                    <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                                </g>
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g opacity="0.3">
-                                                    <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                                </g>
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g opacity="0.3">
-                                                    <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                                </g>
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                    </li>
-                                </ul>
-                                <div class="mt-auto border-t-2 border-[#BBC0D0]/50 pt-7">
-                                    <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                        <div
-                                            class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-primary group-hover:text-white group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                        >
-                                            Monthly
-                                        </div>
-                                        <a
-                                            href="javascript:"
-                                            class="btn text-xl text-white group-hover:bg-white group-hover:text-primary dark:text-black xl:w-44"
-                                            >$39.99<small class="text-xs lowercase">/month</small></a
-                                        >
-                                    </div>
-                                    <span class="block text-center text-sm font-bold text-black dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                        >Billed every month</span
-                                    >
-                                </div>
-                            </div>
-                            <div
-                                class="group flex flex-col rounded-3xl border-2 border-secondary bg-white p-6 px-4 transition hover:bg-secondary hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"                               
-                            >
-                                <div class="relative mb-8">
-                                    <h3 class="text-[22px] font-black text-black dark:text-white">Base</h3>
-                                    <div
-                                        class="group-hover:white/10 absolute top-1/2 -translate-y-1/2 rounded-xl bg-secondary/10 py-2 px-4 text-xs font-black text-secondary group-hover:bg-white group-hover:text-black ltr:right-0 rtl:left-0"
-                                    >
-                                        MOST POPULAR
-                                    </div>
-                                </div>
-                                <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                    </li>
-                                </ul>
-                                <div class="mt-auto border-t-2 border-[#BBC0D0]/50 pt-7">
-                                    <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                        <div
-                                            class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-secondary group-hover:text-white group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                        >
-                                            Yearly
-                                        </div>
-                                        <a
-                                            href="javascript:"
-                                            class="btn bg-secondary text-xl text-white group-hover:bg-white group-hover:text-secondary dark:text-black xl:w-44"
-                                            >$14.99<small class="text-xs lowercase">/month</small></a
-                                        >
-                                    </div>
-                                    <span class="block text-center text-sm font-bold text-black dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                        >$179.00 every 12 months</span
-                                    >
-                                </div>
-                            </div>
-                            <div
-                                class="group flex flex-col rounded-3xl border-2 border-black bg-white p-6 px-4 transition hover:bg-black hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"                               
-                            >
-                                <div class="mb-8">
-                                    <h3 class="text-[22px] font-black text-black group-hover:text-white dark:text-white">Pro</h3>
-                                </div>
-                                <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <div>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                                <path
-                                                    d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                    stroke="white"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                    </li>
-                                </ul>
-                                <div class="mt-auto border-t-2 border-[#BBC0D0]/50 pt-7">
-                                    <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                        <div
-                                            class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-black group-hover:text-gray group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                        >
-                                            Yearly
-                                        </div>
-                                        <a href="javascript:" class="btn bg-black text-xl text-white group-hover:bg-white group-hover:text-black xl:w-44"
-                                            >$499</a
-                                        >
-                                    </div>
-                                    <span
-                                        class="block text-center text-sm font-bold text-black group-hover:text-white dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                        >Billed once only</span
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="relative bg-black py-14 dark:bg-transparent lg:py-[100px]">
-                    <div class="absolute top-0 ltr:right-0 rtl:left-0 rtl:-rotate-180">
-                        <svg width="758" height="741" viewBox="0 0 758 741" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g opacity="0.03">
-                                <ellipse
-                                    opacity="0.1"
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="750"
-                                    ry="749.646"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                                <path
-                                    opacity="0.1"
-                                    d="M1443.13 370.646C1443.13 752.153 1133.7 1061.43 752 1061.43C370.296 1061.43 60.8655 752.153 60.8655 370.646C60.8655 -10.8606 370.296 -320.134 752 -320.134C1133.7 -320.134 1443.13 -10.8606 1443.13 370.646Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <ellipse
-                                    opacity="0.2"
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="634.561"
-                                    ry="634.207"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                                <path
-                                    opacity="0.3"
-                                    d="M1328.4 370.646C1328.4 688.789 1070.34 946.696 752 946.696C433.66 946.696 175.596 688.789 175.596 370.646C175.596 52.5037 433.66 -205.403 752 -205.403C1070.34 -205.403 1328.4 52.5037 1328.4 370.646Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <ellipse
-                                    opacity="0.4"
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="519.83"
-                                    ry="519.476"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                                <path
-                                    opacity="0.5"
-                                    d="M1211.55 370.646C1211.55 624.251 1005.8 829.84 752 829.84C498.197 829.84 292.452 624.251 292.452 370.646C292.452 117.041 498.197 -88.5479 752 -88.5479C1005.8 -88.5479 1211.55 117.041 1211.55 370.646Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <path
-                                    opacity="0.6"
-                                    d="M1155.6 370.646C1155.6 593.351 974.903 773.891 752 773.891C529.097 773.891 348.401 593.351 348.401 370.646C348.401 147.942 529.097 -32.5986 752 -32.5986C974.903 -32.5986 1155.6 147.942 1155.6 370.646Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <ellipse
-                                    opacity="0.7"
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="350.567"
-                                    ry="350.212"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                                <path
-                                    opacity="0.8"
-                                    d="M1040.16 370.647C1040.16 529.596 911.148 658.453 752 658.453C592.852 658.453 463.84 529.596 463.84 370.647C463.84 211.698 592.852 82.8408 752 82.8408C911.148 82.8408 1040.16 211.698 1040.16 370.647Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <ellipse
-                                    opacity="0.9"
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="223.088"
-                                    ry="222.734"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                                <path
-                                    d="M909.848 370.646C909.848 457.624 839.18 528.14 752 528.14C664.82 528.14 594.152 457.624 594.152 370.646C594.152 283.667 664.82 213.151 752 213.151C839.18 213.151 909.848 283.667 909.848 370.646Z"
-                                    stroke="white"
-                                    stroke-width="3"
-                                />
-                                <ellipse
-                                    cx="752"
-                                    cy="370.646"
-                                    rx="106.941"
-                                    ry="106.586"
-                                    stroke="white"
-                                    stroke-width="3"
-                                    stroke-miterlimit="4.62023"
-                                    stroke-linecap="round"
-                                    stroke-dasharray="35 50 15 15"
-                                />
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="container">
-                        <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h6>Testimonial</h6>
-                            <h4 class="!text-white">Feedback from our clients</h4>
-                        </div>
-                        <div class="mx-auto lg:w-11/12">
-                            <div class="swiper mySwiper relative sm:py-12 md:py-0">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="items-center gap-4 sm:grid sm:grid-cols-3">
-                                            <div class="col-span-2">
-                                                <div class="relative rounded-3xl bg-white/[0.02] p-6">
-                                                    <img
-                                                        src="../assets/images/blue-quote.png"
-                                                        alt="blue-quote"
-                                                        class="absolute top-0 ltr:right-0 rtl:left-0 sm:-top-6 ltr:sm:-right-6 rtl:sm:-left-6"
-                                                    />
-                                                    <div class="pb-8">
-                                                        <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M86.2864 2.84744C87.0637 1.5558 88.9363 1.5558 89.7136 2.84744L90.1964 3.64962C90.4756 4.11365 90.9311 4.44459 91.4587 4.56678L92.3708 4.77803C93.8395 5.11816 94.4181 6.8991 93.4299 8.03752L92.8162 8.74454C92.4612 9.15352 92.2872 9.68898 92.334 10.2285L92.4149 11.1613C92.5453 12.6631 91.0303 13.7638 89.6423 13.1757L88.7802 12.8105C88.2815 12.5993 87.7185 12.5993 87.2198 12.8105L86.3577 13.1757C84.9697 13.7638 83.4547 12.6631 83.5851 11.1613L83.666 10.2285C83.7128 9.68899 83.5388 9.15352 83.1838 8.74454L82.5701 8.03752C81.5819 6.89911 82.1605 5.11816 83.6292 4.77803L84.5413 4.56678C85.0689 4.44459 85.5244 4.11365 85.8036 3.64962L86.2864 2.84744Z"
-                                                                fill="#7780A1"
-                                                            />
-                                                            <path
-                                                                d="M66.2864 2.84744C67.0637 1.5558 68.9363 1.5558 69.7136 2.84744L70.1964 3.64962C70.4756 4.11365 70.9311 4.44459 71.4587 4.56678L72.3708 4.77803C73.8395 5.11816 74.4181 6.8991 73.4299 8.03752L72.8162 8.74454C72.4612 9.15352 72.2872 9.68898 72.334 10.2285L72.4149 11.1613C72.5453 12.6631 71.0303 13.7638 69.6423 13.1757L68.7802 12.8105C68.2815 12.5993 67.7185 12.5993 67.2198 12.8105L66.3577 13.1757C64.9697 13.7638 63.4547 12.6631 63.5851 11.1613L63.666 10.2285C63.7128 9.68899 63.5388 9.15352 63.1838 8.74454L62.5701 8.03752C61.5819 6.89911 62.1605 5.11816 63.6292 4.77803L64.5413 4.56678C65.0689 4.44459 65.5244 4.11365 65.8036 3.64962L66.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M46.2864 2.84744C47.0637 1.5558 48.9363 1.5558 49.7136 2.84744L50.1964 3.64962C50.4756 4.11365 50.9311 4.44459 51.4587 4.56678L52.3708 4.77803C53.8395 5.11816 54.4181 6.8991 53.4299 8.03752L52.8162 8.74454C52.4612 9.15352 52.2872 9.68898 52.334 10.2285L52.4149 11.1613C52.5453 12.6631 51.0303 13.7638 49.6423 13.1757L48.7802 12.8105C48.2815 12.5993 47.7185 12.5993 47.2198 12.8105L46.3577 13.1757C44.9697 13.7638 43.4547 12.6631 43.5851 11.1613L43.666 10.2285C43.7128 9.68899 43.5388 9.15352 43.1838 8.74454L42.5701 8.03752C41.5819 6.89911 42.1605 5.11816 43.6292 4.77803L44.5413 4.56678C45.0689 4.44459 45.5244 4.11365 45.8036 3.64962L46.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M26.2864 2.84744C27.0637 1.5558 28.9363 1.5558 29.7136 2.84744L30.1964 3.64962C30.4756 4.11365 30.9311 4.44459 31.4587 4.56678L32.3708 4.77803C33.8395 5.11816 34.4181 6.8991 33.4299 8.03752L32.8162 8.74454C32.4612 9.15352 32.2872 9.68898 32.334 10.2285L32.4149 11.1613C32.5453 12.6631 31.0303 13.7638 29.6423 13.1757L28.7802 12.8105C28.2815 12.5993 27.7185 12.5993 27.2198 12.8105L26.3577 13.1757C24.9697 13.7638 23.4547 12.6631 23.5851 11.1613L23.666 10.2285C23.7128 9.68899 23.5388 9.15352 23.1838 8.74454L22.5701 8.03752C21.5819 6.89911 22.1605 5.11816 23.6292 4.77803L24.5413 4.56678C25.0689 4.44459 25.5244 4.11365 25.8036 3.64962L26.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M6.28638 2.84744C7.0637 1.5558 8.9363 1.5558 9.71362 2.84744L10.1964 3.64962C10.4756 4.11365 10.9311 4.44459 11.4587 4.56678L12.3708 4.77803C13.8395 5.11816 14.4181 6.8991 13.4299 8.03752L12.8162 8.74454C12.4612 9.15352 12.2872 9.68898 12.334 10.2285L12.4149 11.1613C12.5453 12.6631 11.0303 13.7638 9.64225 13.1757L8.78018 12.8105C8.28151 12.5993 7.71849 12.5993 7.21982 12.8105L6.35775 13.1757C4.96968 13.7638 3.45472 12.6631 3.58506 11.1613L3.66601 10.2285C3.71283 9.68899 3.53885 9.15352 3.18383 8.74454L2.57009 8.03752C1.58187 6.89911 2.16054 5.11816 3.62916 4.77803L4.54126 4.56678C5.06887 4.44459 5.52437 4.11365 5.80362 3.64962L6.28638 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                        </svg>
-                                                    </div>
-                                                    <p class="relative font-medium italic text-white">
-                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                                                        believable.
-                                                        <span class="absolute -left-2 -top-2">
-                                                            <svg width="100" height="73" viewBox="0 0 100 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <g opacity="0.05">
-                                                                    <path
-                                                                        d="M79.5222 0C85.1084 0 89.8948 2.12795 93.8833 6.1167C98.1392 10.1054 100 14.8935 100 20.2128C100 25.2666 98.4045 29.7875 94.9462 33.7764C91.4881 38.0323 85.9039 38.8302 81.3825 39.0952C82.1803 45.7443 85.9037 52.6589 89.3619 57.4472C89.8944 58.245 90.425 59.0427 91.2246 59.5752C92.2876 60.6382 92.2876 62.2356 91.2246 63.2986L83.5126 71.543C82.4495 72.8732 80.3216 72.606 79.2567 71.543C76.0657 68.0849 72.8731 63.831 70.2144 59.5751C62.7675 47.6072 59.044 35.6393 59.044 23.669C59.044 16.7544 61.1719 10.9032 65.1606 6.64734C69.1493 2.39334 74.2029 0.000144939 79.5217 0.000144939L79.5222 0Z"
-                                                                        fill="#93A2B2"
-                                                                    />
-                                                                    <path
-                                                                        d="M20.4783 0C26.0645 0 30.8509 2.12795 34.8394 6.1167C39.0952 10.1054 40.9561 14.8935 40.9561 20.2128C40.9561 25.2666 39.3606 29.7875 35.9023 33.7764C32.4442 38.0323 26.86 38.8302 22.3386 39.0952C23.1363 45.7443 26.8597 52.6589 30.318 57.4472C30.8504 58.245 31.381 59.0427 32.1806 59.5752C33.2437 60.6382 33.2437 62.2356 32.1806 63.2986L24.4686 71.543C23.4056 72.8732 21.2776 72.606 20.2128 71.543C17.0218 68.0849 13.8292 63.831 11.1705 59.5751C3.72351 47.6072 7.62939e-06 35.6393 7.62939e-06 23.669C7.62939e-06 16.7544 2.12797 10.9032 6.11671 6.64734C10.1054 2.39334 14.8921 0.000144939 20.4778 0.000144939L20.4783 0Z"
-                                                                        fill="#93A2B2"
-                                                                    />
-                                                                </g>
-                                                            </svg>
-                                                        </span>
-                                                    </p>
-                                                    <div class="mt-12">
-                                                        <h5 class="font-extrabold text-primary">Allan Branch</h5>
-                                                        <h6 class="text-sm font-bold italic">CEO of Lifted</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- <img
-                                                src="../assets/images/testimonial.png"
-                                                alt="testimonial"
-                                                class="mx-auto mt-4 h-20 w-20 rounded-full object-cover object-top ltr:ml-auto rtl:mr-auto sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] sm:object-scale-down ltr:sm:mr-0 rtl:sm:ml-0"
-                                            /> -->
-                                            <div
-                                                class="mx-auto mt-4 h-20 w-20 max-w-[255px] overflow-hidden rounded-full bg-white ltr:ml-auto rtl:mr-auto dark:bg-gray-dark sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] ltr:sm:mr-0 rtl:sm:ml-0"
-                                            >
-                                                <img src="../assets/images/testimonial.png" alt="testimonial" class="h-full w-full object-cover object-top" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="items-center gap-4 sm:grid sm:grid-cols-3">
-                                            <div class="col-span-2">
-                                                <div class="relative rounded-3xl bg-white/[0.02] p-6">
-                                                    <img
-                                                        src="../assets/images/blue-quote.png"
-                                                        alt="blue-quote"
-                                                        class="absolute top-0 ltr:right-0 rtl:left-0 sm:-top-6 ltr:sm:-right-6 rtl:sm:-left-6"
-                                                    />
-                                                    <div class="pb-8">
-                                                        <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M86.2864 2.84744C87.0637 1.5558 88.9363 1.5558 89.7136 2.84744L90.1964 3.64962C90.4756 4.11365 90.9311 4.44459 91.4587 4.56678L92.3708 4.77803C93.8395 5.11816 94.4181 6.8991 93.4299 8.03752L92.8162 8.74454C92.4612 9.15352 92.2872 9.68898 92.334 10.2285L92.4149 11.1613C92.5453 12.6631 91.0303 13.7638 89.6423 13.1757L88.7802 12.8105C88.2815 12.5993 87.7185 12.5993 87.2198 12.8105L86.3577 13.1757C84.9697 13.7638 83.4547 12.6631 83.5851 11.1613L83.666 10.2285C83.7128 9.68899 83.5388 9.15352 83.1838 8.74454L82.5701 8.03752C81.5819 6.89911 82.1605 5.11816 83.6292 4.77803L84.5413 4.56678C85.0689 4.44459 85.5244 4.11365 85.8036 3.64962L86.2864 2.84744Z"
-                                                                fill="#7780A1"
-                                                            />
-                                                            <path
-                                                                d="M66.2864 2.84744C67.0637 1.5558 68.9363 1.5558 69.7136 2.84744L70.1964 3.64962C70.4756 4.11365 70.9311 4.44459 71.4587 4.56678L72.3708 4.77803C73.8395 5.11816 74.4181 6.8991 73.4299 8.03752L72.8162 8.74454C72.4612 9.15352 72.2872 9.68898 72.334 10.2285L72.4149 11.1613C72.5453 12.6631 71.0303 13.7638 69.6423 13.1757L68.7802 12.8105C68.2815 12.5993 67.7185 12.5993 67.2198 12.8105L66.3577 13.1757C64.9697 13.7638 63.4547 12.6631 63.5851 11.1613L63.666 10.2285C63.7128 9.68899 63.5388 9.15352 63.1838 8.74454L62.5701 8.03752C61.5819 6.89911 62.1605 5.11816 63.6292 4.77803L64.5413 4.56678C65.0689 4.44459 65.5244 4.11365 65.8036 3.64962L66.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M46.2864 2.84744C47.0637 1.5558 48.9363 1.5558 49.7136 2.84744L50.1964 3.64962C50.4756 4.11365 50.9311 4.44459 51.4587 4.56678L52.3708 4.77803C53.8395 5.11816 54.4181 6.8991 53.4299 8.03752L52.8162 8.74454C52.4612 9.15352 52.2872 9.68898 52.334 10.2285L52.4149 11.1613C52.5453 12.6631 51.0303 13.7638 49.6423 13.1757L48.7802 12.8105C48.2815 12.5993 47.7185 12.5993 47.2198 12.8105L46.3577 13.1757C44.9697 13.7638 43.4547 12.6631 43.5851 11.1613L43.666 10.2285C43.7128 9.68899 43.5388 9.15352 43.1838 8.74454L42.5701 8.03752C41.5819 6.89911 42.1605 5.11816 43.6292 4.77803L44.5413 4.56678C45.0689 4.44459 45.5244 4.11365 45.8036 3.64962L46.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M26.2864 2.84744C27.0637 1.5558 28.9363 1.5558 29.7136 2.84744L30.1964 3.64962C30.4756 4.11365 30.9311 4.44459 31.4587 4.56678L32.3708 4.77803C33.8395 5.11816 34.4181 6.8991 33.4299 8.03752L32.8162 8.74454C32.4612 9.15352 32.2872 9.68898 32.334 10.2285L32.4149 11.1613C32.5453 12.6631 31.0303 13.7638 29.6423 13.1757L28.7802 12.8105C28.2815 12.5993 27.7185 12.5993 27.2198 12.8105L26.3577 13.1757C24.9697 13.7638 23.4547 12.6631 23.5851 11.1613L23.666 10.2285C23.7128 9.68899 23.5388 9.15352 23.1838 8.74454L22.5701 8.03752C21.5819 6.89911 22.1605 5.11816 23.6292 4.77803L24.5413 4.56678C25.0689 4.44459 25.5244 4.11365 25.8036 3.64962L26.2864 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                            <path
-                                                                d="M6.28638 2.84744C7.0637 1.5558 8.9363 1.5558 9.71362 2.84744L10.1964 3.64962C10.4756 4.11365 10.9311 4.44459 11.4587 4.56678L12.3708 4.77803C13.8395 5.11816 14.4181 6.8991 13.4299 8.03752L12.8162 8.74454C12.4612 9.15352 12.2872 9.68898 12.334 10.2285L12.4149 11.1613C12.5453 12.6631 11.0303 13.7638 9.64225 13.1757L8.78018 12.8105C8.28151 12.5993 7.71849 12.5993 7.21982 12.8105L6.35775 13.1757C4.96968 13.7638 3.45472 12.6631 3.58506 11.1613L3.66601 10.2285C3.71283 9.68899 3.53885 9.15352 3.18383 8.74454L2.57009 8.03752C1.58187 6.89911 2.16054 5.11816 3.62916 4.77803L4.54126 4.56678C5.06887 4.44459 5.52437 4.11365 5.80362 3.64962L6.28638 2.84744Z"
-                                                                fill="#FFBD11"
-                                                            />
-                                                        </svg>
-                                                    </div>
-                                                    <p class="relative font-medium italic text-white">
-                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                                                        believable.
-                                                        <span class="absolute -left-2 -top-2">
-                                                            <svg width="100" height="73" viewBox="0 0 100 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <g opacity="0.05">
-                                                                    <path
-                                                                        d="M79.5222 0C85.1084 0 89.8948 2.12795 93.8833 6.1167C98.1392 10.1054 100 14.8935 100 20.2128C100 25.2666 98.4045 29.7875 94.9462 33.7764C91.4881 38.0323 85.9039 38.8302 81.3825 39.0952C82.1803 45.7443 85.9037 52.6589 89.3619 57.4472C89.8944 58.245 90.425 59.0427 91.2246 59.5752C92.2876 60.6382 92.2876 62.2356 91.2246 63.2986L83.5126 71.543C82.4495 72.8732 80.3216 72.606 79.2567 71.543C76.0657 68.0849 72.8731 63.831 70.2144 59.5751C62.7675 47.6072 59.044 35.6393 59.044 23.669C59.044 16.7544 61.1719 10.9032 65.1606 6.64734C69.1493 2.39334 74.2029 0.000144939 79.5217 0.000144939L79.5222 0Z"
-                                                                        fill="#93A2B2"
-                                                                    />
-                                                                    <path
-                                                                        d="M20.4783 0C26.0645 0 30.8509 2.12795 34.8394 6.1167C39.0952 10.1054 40.9561 14.8935 40.9561 20.2128C40.9561 25.2666 39.3606 29.7875 35.9023 33.7764C32.4442 38.0323 26.86 38.8302 22.3386 39.0952C23.1363 45.7443 26.8597 52.6589 30.318 57.4472C30.8504 58.245 31.381 59.0427 32.1806 59.5752C33.2437 60.6382 33.2437 62.2356 32.1806 63.2986L24.4686 71.543C23.4056 72.8732 21.2776 72.606 20.2128 71.543C17.0218 68.0849 13.8292 63.831 11.1705 59.5751C3.72351 47.6072 7.62939e-06 35.6393 7.62939e-06 23.669C7.62939e-06 16.7544 2.12797 10.9032 6.11671 6.64734C10.1054 2.39334 14.8921 0.000144939 20.4778 0.000144939L20.4783 0Z"
-                                                                        fill="#93A2B2"
-                                                                    />
-                                                                </g>
-                                                            </svg>
-                                                        </span>
-                                                    </p>
-                                                    <div class="mt-12">
-                                                        <h5 class="font-extrabold text-primary">Allan Branch</h5>
-                                                        <h6 class="text-sm font-bold italic">CEO of Lifted</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img
-                                                src="../assets/images/testimonial.png"
-                                                alt="testimonial"
-                                                class="mx-auto ml-auto mt-4 h-20 w-20 rounded-full object-cover object-top rtl:mr-auto sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] sm:object-scale-down ltr:sm:mr-0 rtl:sm:ml-0"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="bottom-0 z-[1] mt-5 flex items-center justify-center gap-4 ltr:right-1/3 rtl:left-1/3 sm:absolute sm:mt-0 sm:justify-end"
-                                >
-                                    <a href="javascript:" class="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary"
-                                        >View All</a
-                                    >
-                                    <button
-                                        type="button"
-                                        class="testimonial-swiper-button-prev static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:text-[0px] hover:bg-secondary rtl:rotate-180"
-                                    >
-                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502"
-                                                stroke="white"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <button
-                                        type="button"
-                                        class="testimonial-swiper-button-next static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:text-[0px] hover:bg-secondary rtl:rotate-180"
-                                    >
-                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498"
-                                                stroke="white"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="py-14 dark:bg-gray-dark lg:py-[100px]">
-                    <div class="container">
-                        <div class="relative z-10 lg:flex">
-                            <div class="heading text-center lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:pl-10 rtl:lg:text-right">
-                                <h6>Get In Touch.</h6>
-                                <h4 class="sm:!leading-[50px]">Ready to Get Started?</h4>
-                                <img src="../assets/images/form-img.png" alt="form-img" class="mx-auto" data-aos="fade-right" data-aos-duration="1000" />
-                            </div>
-                            <form action="#" class="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
-                                <div class="grid gap-10 sm:grid-cols-2">
-                                    <div class="relative">
-                                        <input
-                                            type="text"
-                                            name="name"
-                                            class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                        />
-                                        <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                            >Full Name</label
-                                        >
-                                        <svg
-                                            width="20"
-                                            height="22"
-                                            viewBox="0 0 20 22"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                        >
-                                            <path
-                                                d="M5.42855 5.57875C5.42855 8.10348 7.47525 10.1502 9.99998 10.1502C12.5247 10.1502 14.5714 8.10348 14.5714 5.57875C14.5714 3.05402 12.5247 1.00732 9.99998 1.00732"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                            />
-                                            <path
-                                                d="M2 16.9328C2 15.9495 2.61812 15.0724 3.5441 14.7417V14.7417C7.71891 13.2507 12.2811 13.2507 16.4559 14.7417V14.7417C17.3819 15.0724 18 15.9495 18 16.9328V18.7014C18 19.9185 16.922 20.8535 15.7172 20.6813L13.8184 20.4101C11.2856 20.0483 8.71435 20.0483 6.18162 20.4101L4.28284 20.6813C3.07798 20.8535 2 19.9185 2 18.7014V16.9328Z"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div class="relative">
-                                        <input
-                                            type="email"
-                                            name="email"
-                                            class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                        />
-                                        <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                            >Email Address</label
-                                        >
-                                        <svg
-                                            width="22"
-                                            height="21"
-                                            viewBox="0 0 22 21"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                        >
-                                            <path
-                                                d="M1 8.00732V7.00732C1 4.2459 3.23858 2.00732 6 2.00732H16C18.7614 2.00732 21 4.2459 21 7.00732V13.0073C21 15.7687 18.7614 18.0073 16 18.0073H6C3.23858 18.0073 1 15.7687 1 13.0073V12.0073"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                            />
-                                            <path
-                                                d="M5 7.00732L9.8 10.6073C10.5111 11.1407 11.4889 11.1407 12.2 10.6073L17 7.00732"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div class="relative">
-                                        <input
-                                            type="text"
-                                            name="mobile"
-                                            class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                        />
-                                        <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                            >Mobile Number</label
-                                        >
-                                        <svg
-                                            width="22"
-                                            height="22"
-                                            viewBox="0 0 22 22"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                        >
-                                            <path
-                                                d="M6.45241 1.40806C5.45292 0.783702 4.14202 0.887138 3.2983 1.73086L1.86856 3.1606C-0.302899 5.33207 1.73747 10.8931 6.42586 15.5815C11.1142 20.2699 16.6753 22.3102 18.8467 20.1388L20.2765 18.709C21.2635 17.722 21.2374 16.0956 20.2182 15.0764L18.0036 12.8619C16.9844 11.8426 15.358 11.8165 14.371 12.8036L14.0639 13.1107C13.531 13.6436 12.6713 13.6957 12.0713 13.2005C11.4925 12.7229 10.9159 12.208 10.3576 11.6497C9.79933 11.0914 9.28441 10.5149 8.80678 9.93607C8.31161 9.33601 8.36374 8.47631 8.89666 7.9434L9.20375 7.63631C9.98187 6.85819 10.1303 5.68271 9.65898 4.72062"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div class="relative">
-                                        <input
-                                            type="text"
-                                            name="city"
-                                            class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                        />
-                                        <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                            >City</label
-                                        >
-                                        <svg
-                                            width="20"
-                                            height="22"
-                                            viewBox="0 0 20 22"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                        >
-                                            <path
-                                                d="M5.89416 2.31259C7.20149 1.48625 8.75475 1.00732 10.4211 1.00732C15.0719 1.00732 18.8421 4.73828 18.8421 9.34066C18.8421 15.0541 12.1053 21.0073 10.4211 21.0073C8.73684 21.0073 2 15.0541 2 9.34066C2 7.87581 2.38193 6.49924 3.05263 5.30315"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                            />
-                                            <path
-                                                d="M13.4571 9.77392C13.5365 9.49702 13.579 9.20456 13.579 8.90216C13.579 7.15811 12.1651 5.74427 10.4211 5.74427C8.67702 5.74427 7.26318 7.15811 7.26318 8.90216C7.26318 10.6462 8.67702 12.0601 10.4211 12.0601C10.6633 12.0601 10.8991 12.0328 11.1256 11.9812"
-                                                stroke="currentColor"
-                                                stroke-width="1.8"
-                                                stroke-linecap="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="relative mt-10">
-                                    <input
-                                        type="text"
-                                        name="message"
-                                        class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                    />
-                                    <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                        >Message</label
-                                    >
-                                    <svg
-                                        width="22"
-                                        height="22"
-                                        viewBox="0 0 22 22"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                    >
-                                        <path
-                                            d="M1 11.467V18.9267C1 19.7652 1.96993 20.2314 2.6247 19.7076L5.45217 17.4456C5.8068 17.1619 6.24742 17.0073 6.70156 17.0073H16C18.7614 17.0073 21 14.7687 21 12.0073V6.00732C21 3.2459 18.7614 1.00732 16 1.00732H6C3.23858 1.00732 1 3.2459 1 6.00732V7.62225"
-                                            stroke="currentColor"
-                                            stroke-width="1.8"
-                                            stroke-linecap="round"
-                                        />
-                                        <circle cx="6.05005" cy="9.05713" r="1.25" fill="currentColor" />
-                                        <circle cx="11.05" cy="9.05713" r="1.25" fill="currentColor" />
-                                        <circle cx="16.05" cy="9.05713" r="1.25" fill="currentColor" />
-                                    </svg>
-                                </div>
-                                <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                                    <button type="button" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </section>
+             
+              
             </div>
 
             <footer class="mt-auto bg-white dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.03] dark:to-transparent">
                 <div class="container">
                     <div class="grid gap-y-10 gap-x-4 py-14 sm:grid-cols-3 lg:grid-cols-5 lg:py-[100px]">
                         <div class="relative">
-                            <img src="../assets/images/logo.png" alt="plurk" class="h-7" />
+                            <p class="h-10 text-4xl text-secondary">SecureNet</p>
                             <ul class="mt-12 flex items-center gap-8">
                                 <li>
                                     <a href="javascript:">
@@ -1836,50 +667,36 @@
                         <div>
                             <ul class="flex flex-col gap-3 font-bold">
                                 <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Quick Menu</li>
-                                <li><a href="index.html" class="inline-block transition hover:scale-110 hover:text-secondary">Home</a></li>
-                                <li><a href="portfolio.html" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</a></li>
-                                <li><a href="services.html" class="inline-block transition hover:scale-110 hover:text-secondary">Service</a></li>
-                                <li><a href="team.html" class="inline-block transition hover:scale-110 hover:text-secondary">Team</a></li>
-                                <li><a href="about-us.html" class="inline-block transition hover:scale-110 hover:text-secondary">About Us</a></li>
-                                <li><a href="career.html" class="inline-block transition hover:scale-110 hover:text-secondary">Career</a></li>
+                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Home</a></li>
+                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</a></li>
+                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Service</a></li>
+                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Team</a></li>
                             </ul>
                         </div>
                         <div>
                             <ul class="flex flex-col gap-3 font-bold">
                                 <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
                                 <li>
-                                    <a href="services-detail.html" class="inline-block transition hover:scale-110 hover:text-secondary">UI/UX Design</a>
+                                    <a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Anomaly Detection</a>
                                 </li>
                                 <li>
-                                    <a href="services-detail.html" class="inline-block transition hover:scale-110 hover:text-secondary">Web Development</a>
+                                    <a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Enhanced Security</a>
                                 </li>
                                 <li>
-                                    <a href="services-detail.html" class="inline-block transition hover:scale-110 hover:text-secondary">Digital Marketing</a>
+                                    <a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Real-Time Monitoring</a>
                                 </li>
                                 <li>
-                                    <a href="services-detail.html" class="inline-block transition hover:scale-110 hover:text-secondary">App Development</a>
+                                    <a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">User Management</a>
                                 </li>
                             </ul>
                         </div>
+                       
                         <div>
                             <ul class="flex flex-col gap-3 font-bold">
-                                <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Legal</li>
+                                <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Location</li>
+                                <li>Madonna University Okija, Anambra State Nigeria</li>
                                 <li>
-                                    <a href="terms-conditions.html" class="inline-block transition hover:scale-110 hover:text-secondary">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="privacy-policy.html" class="inline-block transition hover:scale-110 hover:text-secondary">Privacy Policy</a>
-                                </li>
-                                <li><a href="faq.html" class="inline-block transition hover:scale-110 hover:text-secondary">FAQs</a></li>
-                                <li><a href="blog.html" class="inline-block transition hover:scale-110 hover:text-secondary">Blog</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="flex flex-col gap-3 font-bold">
-                                <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                                <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
-                                <li>
-                                    <a href="tel:+(617) 254-2333" class="inline-block transition hover:scale-110 hover:text-secondary">+(617) 254-2333</a>
+                                    <a href="tel:+(617) 254-2333" class="inline-block transition hover:scale-110 hover:text-secondary">+(###) ###-####</a>
                                 </li>
                             </ul>
                         </div>
@@ -1890,10 +707,10 @@
                     <div class="container">
                         <div class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row">
                             <div>
-                                Copyright© <span class="curr-year">2022</span>
-                                <a href="javascript:" class="text-primary transition hover:text-secondary">Plurk Technologies Pvt. Ltd.</a>
+                                Copyright© <span class="curr-year">2024</span>
+                                <a href="javascript:" class="text-primary transition hover:text-secondary">SecureNet.</a>
                             </div>
-                            <div>Need help? Visit the <a href="contact-us.html" class="text-secondary transition hover:text-primary">Contact Us</a></div>
+                            <div>Need help? Visit the <a href="#" class="text-secondary transition hover:text-primary">Contact Us</a></div>
                         </div>
                     </div>
                 </div>
