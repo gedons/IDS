@@ -210,7 +210,7 @@
                                     <p class="my-8 text-lg lg:w-[90%]">
                                         Advanced Cloud-Based Intrusion Detection System to Secure Your Digital Assets
                                     </p>
-                                    <a href="#" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Get Started</a>
+                                    <router-link to="/app/signup"  class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Get Started</router-link>
                                 </div>
                                 <div
                                     class="bottom-0 mx-auto w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute xl:w-[650px]"                                    
