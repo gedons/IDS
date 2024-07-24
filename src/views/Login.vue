@@ -1,11 +1,10 @@
 <template>
-
     <div class="flex min-h-screen flex-col bg-white bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] font-mulish text-base font-normal text-gray antialiased dark:bg-[#101926] dark:from-transparent dark:to-transparent">
         <header id="top-header" class="sticky top-0 z-50 bg-black transition duration-300">
             <div class="container">
                 <div class="flex items-center justify-between py-5 lg:py-0">
                     
-                    <p class="h-10 text-4xl text-secondary">SecureNet</p>
+                    <router-link to="/" class="h-10 text-4xl text-secondary">SecureNet</router-link>
                     <div class="flex items-center">
                         <div onclick="toggleMenu()" class="overlay fixed inset-0 z-[51] hidden bg-black/60 lg:hidden"></div>
                         <div class="menus">
@@ -24,56 +23,7 @@
                                 </button>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                
-                                <li>
-                                    <a href="#">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">Service</a>
-                                </li>
-                                <li>
-                                    <a href="#">Team</a>
-                                </li>                                    
-                                <li
-                                    class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
-                                >
-                                    <button type="button" onclick="search()" class="text-white hover:text-primary">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M18.7363 17.4637L14.6512 13.3785C15.6799 12.0753 16.3 10.4347 16.3 8.65C16.3 4.4317 12.8683 1 8.65 1C4.4317 1 1 4.4317 1 8.65C1 12.8683 4.4317 16.3 8.65 16.3C10.4356 16.3 12.0754 15.6808 13.3786 14.6512L17.4637 18.7363C17.6392 18.9118 17.8696 19 18.1 19C18.3304 19 18.5608 18.9118 18.7363 18.7363C19.0882 18.3844 19.0882 17.8156 18.7363 17.4637ZM2.8 8.65C2.8 5.4244 5.4244 2.8 8.65 2.8C11.8756 2.8 14.5 5.4244 14.5 8.65C14.5 11.8756 11.8756 14.5 8.65 14.5C5.4244 14.5 2.8 11.8756 2.8 8.65Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </button>
-                                </li>
-                                <li
-                                    class="search-bar absolute hidden w-0 overflow-hidden bg-black transition-all duration-500 ltr:right-0 rtl:left-0 lg:block"
-                                >
-                                    <form action="#" class="relative">
-                                        <input
-                                            type="text"
-                                            placeholder="Search"
-                                            class="w-full border-b border-white bg-transparent py-1 outline-none ltr:pl-2 ltr:pr-8 rtl:pr-2 rtl:pl-8"
-                                        />
-                                        <button
-                                            type="button"
-                                            class="absolute top-1/2 -translate-y-1/2 hover:text-primary ltr:right-0 rtl:left-0"
-                                            onclick="search()"
-                                        >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                stroke-width="1.5"
-                                                stroke="currentColor"
-                                                class="h-6 w-6"
-                                            >
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                            </svg>
-                                        </button>
-                                    </form>
-                                </li>
+                                <li><a href="#">Home</a></li>                                                          
                             </ul>
                         </div>
                         <ul class="flex items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-0">
@@ -198,11 +148,12 @@
                         <h4 class="mb-6 sm:!leading-[50px]">Ready to Get Started?</h4>
                         
                     </div>
-                    <form action="#" class="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
+                    <form @submit.prevent="login" class="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
                         <div class="relative">
                             <input
                                 type="email"
                                 name="email"
+                                v-model="email" 
                                 class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                             />
                             <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
@@ -236,6 +187,7 @@
                             <input
                                     type="password"
                                     name="mobile"
+                                    v-model="password" 
                                     class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                 />
                             <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
@@ -261,8 +213,15 @@
                             </svg>
                         </div>
                         <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                            <button type="button" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
+                            <!-- <button type="submit" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
                                 Sign In
+                            </button> -->
+                            <button :disabled="loading" class="btn bg-gray px-12 text-white font-bold  rounded focus:outline-none focus:shadow-outline" type="submit">
+                                <span v-if="loading" class="flex items-center">
+                                    <h1 class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-6 w-6 "></h1>
+                                  <span class="ml-1">Logging in...</span>
+                                </span>
+                                <span v-else>Login</span>
                             </button>
                         </div>
                     </form>
@@ -275,47 +234,60 @@
   
   <script>
   import axios from 'axios';
-//   import router from '../router';
+ 
   
   export default {
-
     data() {
       return {
-        name: '',
         email: '',
         password: '',
-        error: null
+        loading: false,
       };
     },
-    computed: {
-            isLoggedIn() {
-            return !!localStorage.getItem('token');
-          }
-        },
-  methods: {
-      async register() {
+    methods: {
+      async login() {
+        this.loading = true;
         try {
-          const response = await axios.post('https://passgenapp.onrender.com/api/auth/register', {
-            name: this.name,
+          const response = await axios.post('https://ids-api-lgwc.onrender.com/api/auth/login', {
             email: this.email,
             password: this.password
           });
-          localStorage.setItem('token', response.data.token);
-          this.$toast.success('Registration successful.', {
-		            timeout: 5000, 
-		  });  
-          router.push('/dashboard');
+          const { token, user } = response.data;
+          localStorage.setItem('token', token);
+          localStorage.setItem('user', JSON.stringify(user));
+          this.$toast.success('Login successful.', {
+                timeout: 5000, 
+          });
+          this.$router.push('/app/dashboard');
         } catch (error) {
-          this.error = error.response.data.message || 'Registration failed. Please try again.';
+          this.error = error.response.data.message || 'Login failed. Please try again.';
+          this.$toast.info('Login failed.', error, {
+            timeout: 5000,
+            });
+        }finally {
+            this.loading = false;
         }
-      },
-      logout(){
-        localStorage.removeItem('token');
-        router.push('/login');
       }
     }
   };
   </script>
+
+    <style scoped>
+    .loader {
+      border-top-color: #3498db;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    </style>
+    
 
  
   
