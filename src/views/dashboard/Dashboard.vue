@@ -1,5 +1,6 @@
 <!-- src/views/Dashboard.vue -->
 <template>
+
     <div class="flex min-h-screen flex-col bg-white bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] font-mulish text-base font-normal text-gray antialiased dark:bg-[#101926] dark:from-transparent dark:to-transparent">
         <header id="top-header" class="sticky top-0 z-50 bg-black transition duration-300">
           <div class="container">
@@ -30,7 +31,7 @@
                                       <a class="cursor-pointer" @click="showComponent('Alerts')">Alerts</a>
                                   </li>
                                   <li>
-                                      <a class="cursor-pointer" @click="showComponent('IbmResponses')">IBM Responses</a>
+                                      <a class="cursor-pointer" @click="showComponent('IbmResponses')">Log Anomalies</a>
                                   </li>
                                   <li>
                                       <a class="cursor-pointer" @click="logout">Logout</a>
@@ -65,14 +66,15 @@
                 <div class="grid items-center gap-10 md:grid-cols-2">
                     <div class="text-center text-lg font-medium md:ltr:text-left md:rtl:text-right">
                         <h2 class="mb-3 text-3xl font-black leading-normal text-black dark:text-white md:text-[40px]">
-                            Making Complex Digital Products
+                            IDS Monitoring Dashboard
                         </h2>
                         <p>
-                            In publishing and graphic design, Lorem ipsum is a text commonly used to demonstrate the visual form of a document or a
-                            typeface without relying on meaningful content.
+                            The Dashboard  provides real-time insights into your network activities.
+                            It offers an intuitive interface for administrators to monitor logs, receive alerts, and view IBM responses,
+                            helping to identify and mitigate potential security threats effectively.
                         </p>
                         <div class="mt-8">
-                            <a href="javascript:" class="bg-secondary py-3 px-5 font-bold text-white transition hover:bg-primary">Explore</a>
+                            <a href="javascript:" class="bg-secondary py-3 px-5 font-bold text-white transition rounded">Explore</a>
                         </div>
                     </div>
                     <div>
@@ -84,51 +86,39 @@
                     </div>
                 </div>
             </div>
-          </section>
+          </section>        
+        
 
           <section class="bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20">
-                <div class="container">
-                    <div class="mb-10">
-                        <h6 class="mb-4 text-lg font-extrabold uppercase text-secondary">network logs</h6>
-                        <h2 class="text-3xl font-black leading-tight text-black dark:text-white md:text-[40px]">List of available network logs</h2>
-                    </div>
-                    <div class="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
-                        <div>
-                            <div
-                                class="relative border-[2px] border-white bg-gradient-to-b from-white/50 to-transparent p-5 shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] transition hover:border-secondary/50 hover:bg-secondary/20 dark:border-[rgba(119,128,161,0.15)] dark:bg-black dark:from-transparent dark:shadow-none dark:hover:border-secondary/50 dark:hover:bg-secondary/10 md:p-8"
-                            >
-                                <a href="javascript:" class="absolute inset-0 h-full w-full"></a>
-                                
-                                <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">UI/UX Design</h5>
-                                <p class="text-lg leading-loose line-clamp-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div
-                                class="relative border-[2px] border-white bg-gradient-to-b from-white/50 to-transparent p-5 shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] transition hover:border-secondary/50 hover:bg-secondary/20 dark:border-[rgba(119,128,161,0.15)] dark:bg-black dark:from-transparent dark:shadow-none dark:hover:border-secondary/50 dark:hover:bg-secondary/10 md:p-8"
-                            >
-                                <a href="javascript:" class="absolute inset-0 h-full w-full"></a>
-                                
-                                <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">Product Design</h5>
-                                <p class="text-lg leading-loose line-clamp-3">
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <div
-                                class="relative border-[2px] border-white bg-gradient-to-b from-white/50 to-transparent p-5 shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] transition hover:border-secondary/50 hover:bg-secondary/20 dark:border-[rgba(119,128,161,0.15)] dark:bg-black dark:from-transparent dark:shadow-none dark:hover:border-secondary/50 dark:hover:bg-secondary/10 md:p-8"
-                            >
-                                <a href="javascript:" class="absolute inset-0 h-full w-full"></a>
-                               
-                                <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">Motion Graphics</h5>
-                                <p class="text-lg leading-loose line-clamp-3">
-                                    When an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                            </div>
-                        </div>                       
-                    </div>
+            <div class="container">
+                <div class="mb-10">
+                    <h6 class="mb-4 text-lg font-extrabold uppercase text-secondary">Network Logs</h6>
+                    <h2 class="text-3xl font-black leading-tight text-black dark:text-white md:text-[40px]">List of available network logs</h2>
                 </div>
+                             
+                <a @click="showComponent('Logs')" class="mb-6 px-4 py-2 bg-secondary text-white rounded cursor-pointer">More Logs</a>
+                <span v-if="loading" class="flex items-center mt-4">
+                    <h1 class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-6 w-6 "></h1>
+                    <span class="ml-1">Fetching Logs...</span>
+                </span>
+                <div v-else class="mt-4">
+                    <div class="text-2xl" v-if="logs.length === 0">No logs available</div>
+                    <div class="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
+                        <div v-for="log in logs" :key="log.id">
+                        <div
+                            class="relative border-[2px] border-white bg-gradient-to-b from-white/50 to-transparent p-5 shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] transition hover:border-secondary/50 hover:bg-secondary/20 dark:border-[rgba(119,128,161,0.15)] dark:bg-black dark:from-transparent dark:shadow-none dark:hover:border-secondary/50 dark:hover:bg-secondary/10 md:p-8"
+                        >
+                        
+                            <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">{{ log.message }}</h5>
+                            <p class="text-lg leading-loose line-clamp-3"><span>source IP: </span>{{ log.sourceIP }}</p>
+                            <p class="text-lg leading-loose line-clamp-3"><span>destination IP: </span>{{ log.destinationIP }}</p>  
+                            <!-- <button @click="viewLog(log.id)" class="mt-4 py-2 text-black dark:text-white">View</button>                   -->
+                            <button @click="deleteLog(log._id)" class="mt-4 py-2 text-secondary dark:text-white">Delete</button>
+                        </div>
+                    </div>
+                    </div>  
+                </div>             
+            </div>
           </section>
         </div>
 
@@ -141,23 +131,72 @@
 import Logs from '../../views/dashboard/Logs.vue';
 import Alerts from '../../views/dashboard/Alerts.vue';
 import IbmResponses from '../../views/dashboard/IbmResponses.vue';
-
+import axios from 'axios';
 
 export default {
   name: "Dashboard",
   data() {
     return {
       currentView: null,
+      logs: [],
+      loading: false,
     };
   },
-
+  created() {
+    this.fetchLogs();
+  },
   methods: {
     showComponent(view) {
       this.currentView = view;
     },
+
+    async fetchLogs(){
+      this.loading = true;
+      try {
+        const token = localStorage.getItem('token');
+        const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs', {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        });
+        this.logs = response.data;
+      } catch (error) {
+        if (error.response && error.response.status === 401) {
+            // Token expired or invalid
+            localStorage.removeItem('token');
+            this.$router.push('/app/signin');
+        } else {
+            console.error("Error fetching logs:", error);
+        }
+      }finally{
+        this.loading = false;
+      }
+    },
+
+    async deleteLog(id) {
+      try {
+        const token = localStorage.getItem('token');
+        await axios.delete(`https://ids-api-lgwc.onrender.com/api/logs/${id}`, {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        this.$toast.info('Deleted successfully!!', {
+                timeout: 5000, 
+        });
+        this.fetchLogs();
+      } catch (error) {
+        console.error('Error deleting log:', error);
+        this.$toast.error('An error occured. Please try again!!!', {
+            timeout: 5000, 
+        });
+      }
+    },
+
     logout(){
       localStorage.removeItem('token');
-      this.$router.push('/app/signin');
+      this.$toast.info('Logged out successfully', {
+            timeout: 5000, 
+        });
+      this.$router.push('/');
     }
   },
   components: {
@@ -170,5 +209,17 @@ export default {
 </script>
 
 <style scoped>
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 </style>

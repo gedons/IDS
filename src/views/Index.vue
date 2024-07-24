@@ -638,9 +638,9 @@
                             <ul class="flex flex-col gap-3 font-bold">
                                 <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Quick Menu</li>
                                 <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Home</a></li>
-                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</a></li>
+                                <!-- <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</a></li>
                                 <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Service</a></li>
-                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Team</a></li>
+                                <li><a href="#" class="inline-block transition hover:scale-110 hover:text-secondary">Team</a></li> -->
                             </ul>
                         </div>
                         <div>
@@ -677,7 +677,7 @@
                     <div class="container">
                         <div class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row">
                             <div>
-                                Copyright© <span class="curr-year">2024</span>
+                                Copyright© <span class="curr-year">2024 </span>
                                 <a href="javascript:" class="text-primary transition hover:text-secondary">SecureNet.</a>
                             </div>
                             <div>Need help? Visit the <a href="#" class="text-secondary transition hover:text-primary">Contact Us</a></div>

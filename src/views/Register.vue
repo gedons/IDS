@@ -296,7 +296,7 @@
             this.$toast.success('Registration successful.', {
                 timeout: 5000, 
             });  
-            this.$router.push('/app/signin');
+            this.$router.push('/app/dashboard');
         } catch (error) {
             console.log(error);
             this.$toast.info('Registration Failed. Please try again', error, {
