@@ -112,6 +112,7 @@
                             <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">{{ log.message }}</h5>
                             <p class="text-lg leading-loose line-clamp-3"><span>source IP: </span>{{ log.sourceIP }}</p>
                             <p class="text-lg leading-loose line-clamp-3"><span>destination IP: </span>{{ log.destinationIP }}</p>  
+                            <p class="text-xs leading-loose line-clamp-3">{{ new Date(log.timestamp).toLocaleString() }}</p>      
                             <!-- <button @click="viewLog(log.id)" class="mt-4 py-2 text-black dark:text-white">View</button>                   -->
                             <button @click="deleteLog(log._id)" class="mt-4 py-2 text-secondary dark:text-white">Delete</button>
                         </div>
@@ -150,33 +151,32 @@ export default {
       this.currentView = view;
     },
 
-    async fetchLogs(){
-      this.loading = true;
-      try {
-        const token = localStorage.getItem('token');
-        const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs', {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        });
-        this.logs = response.data;
-      } catch (error) {
-        if (error.response && error.response.status === 401) {
-            // Token expired or invalid
+    async fetchLogs() {
+        try {
+          this.loading = true;
+          const token = localStorage.getItem('token');
+          const response = await axios.get('http://localhost:5000/api/logs', {
+            headers: {
+              Authorization: `Bearer ${token}`
+            }
+          });         
+          this.logs = response.data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+        } catch (error) {
+          if (error.response && error.response.status === 401) {           
             localStorage.removeItem('token');
-            this.$router.push('/app/signin');
-        } else {
-            console.error("Error fetching logs:", error);
+              this.$router.push('/app/signin');
+          } else {
+              console.error("Error fetching logs:", error);
+          }
+        } finally {
+          this.loading = false;
         }
-      }finally{
-        this.loading = false;
-      }
-    },
+      },
 
     async deleteLog(id) {
       try {
         const token = localStorage.getItem('token');
-        await axios.delete(`https://ids-api-lgwc.onrender.com/api/logs/${id}`, {
+        await axios.delete(`http://localhost:5000/api/logs/${id}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         this.$toast.info('Deleted successfully!!', {

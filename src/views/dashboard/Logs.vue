@@ -78,6 +78,7 @@
                           <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">{{ log.message }}</h5>
                           <p class="text-lg leading-loose line-clamp-3"><span>source IP: </span>{{ log.sourceIP }}</p>
                           <p class="text-lg leading-loose line-clamp-3"><span>destination IP: </span>{{ log.destinationIP }}</p>  
+                          <p class="text-xs leading-loose line-clamp-3">{{ new Date(log.timestamp).toLocaleString() }}</p>        
                           <button @click="viewAlerts(log._id)" class="mt-4 py-2 text-secondary dark:text-white">View Alerts</button>
                           <button @click="deleteLog(log._id)" class="mt-4 px-4 py-2 text-secondary dark:text-white">Delete</button>
                       </div>
@@ -244,7 +245,7 @@
         try {
           this.sloading = true;
           const token = localStorage.getItem('token');
-          await axios.post('https://ids-api-lgwc.onrender.com/api/logs', this.newLog, {
+          await axios.post('http://localhost:5000/api/logs', this.newLog, {
             headers: {
               Authorization: `Bearer ${token}`
             }
@@ -263,7 +264,7 @@
       async viewAlerts(logId) {
           try {
               const token = localStorage.getItem('token');
-              const response = await axios.get(`https://ids-api-lgwc.onrender.com/api/alerts/${logId}`, {
+              const response = await axios.get(`http://localhost:5000/api/alerts/${logId}`, {
                   headers: {
                       Authorization: `Bearer ${token}`
                   }
@@ -282,7 +283,7 @@
         try {
           this.loading = true;
           const token = localStorage.getItem('token');
-          const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs', {
+          const response = await axios.get('http://localhost:5000/api/logs', {
             headers: {
               Authorization: `Bearer ${token}`
             }
@@ -299,7 +300,7 @@
       async deleteLog(id) {
         try {
           const token = localStorage.getItem('token');
-          await axios.delete(`https://ids-api-lgwc.onrender.com/api/logs/${id}`, {
+          await axios.delete(`http://localhost:5000/api/logs/${id}`, {
             headers: { Authorization: `Bearer ${token}` },
           });
           this.$toast.info('Deleted successfully!!', {

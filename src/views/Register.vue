@@ -285,7 +285,7 @@
       async register() {
         this.loading = true;
         try {
-          const response = await axios.post('https://ids-api-lgwc.onrender.com/api/auth/register', {
+          const response = await axios.post('http://localhost:5000/api/auth/register', {
             username: this.username,
             email: this.email,
             password: this.password

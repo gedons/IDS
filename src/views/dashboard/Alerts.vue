@@ -78,6 +78,7 @@
                         <h5 class="pt-7 pb-3 text-[22px] font-bold text-black dark:text-white">{{ alert.message }}</h5>
                         <p class="text-lg leading-loose line-clamp-3"><span>source IP: </span>{{ alert.sourceIP }}</p>
                         <p class="text-lg leading-loose line-clamp-3"><span>destination IP: </span>{{ alert.destinationIP }}</p>  
+                        <p class="text-xs leading-loose line-clamp-3">{{ new Date(alert.timestamp).toLocaleString() }}</p>                          
                         <button @click="viewAlert(alert._id)" class="mt-4 py-2 text-secondary dark:text-white">Expand</button>
                         <button @click="deletealert(alert._id)" class="mt-4 px-4 py-2 text-secondary dark:text-white">Delete</button>
                     </div>
@@ -121,7 +122,7 @@
          this.loading = true;
          try {
             const token = localStorage.getItem('token');
-            const response = await axios.get('https://ids-api-lgwc.onrender.com/api/alerts', {
+            const response = await axios.get('http://localhost:5000/api/alerts', {
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -143,7 +144,7 @@
         async viewAlert(alertId) {
           try {
             const token = localStorage.getItem('token');
-            const response = await axios.get(`https://ids-api-lgwc.onrender.com/api/alerts/single/${alertId}`, {
+            const response = await axios.get(`http://localhost:5000/api/alerts/single/${alertId}`, {
               headers: {
                 Authorization: `Bearer ${token}`,
               },
