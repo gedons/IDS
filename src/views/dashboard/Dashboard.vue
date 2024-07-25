@@ -154,7 +154,7 @@ export default {
       this.loading = true;
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs', {
+        const response = await axios.get('http://localhost:5000/api/logs', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -176,7 +176,7 @@ export default {
     async deleteLog(id) {
       try {
         const token = localStorage.getItem('token');
-        await axios.delete(`https://ids-api-lgwc.onrender.com/api/logs/${id}`, {
+        await axios.delete(`http://localhost:5000/api/logs/${id}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         this.$toast.info('Deleted successfully!!', {

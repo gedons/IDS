@@ -82,7 +82,7 @@
          this.loading = true;
          try {
             const token = localStorage.getItem('token');
-            const response = await axios.get('https://ids-api-lgwc.onrender.com/api/alerts', {
+            const response = await axios.get('http://localhost:5000/api/alerts', {
             headers: {
                 Authorization: `Bearer ${token}`
             }

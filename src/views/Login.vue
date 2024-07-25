@@ -248,7 +248,7 @@
       async login() {
         this.loading = true;
         try {
-          const response = await axios.post('https://ids-api-lgwc.onrender.com/api/auth/login', {
+          const response = await axios.post('http://localhost:5000/api/auth/login', {
             email: this.email,
             password: this.password
           });
