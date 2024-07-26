@@ -1,62 +1,6 @@
-<!-- src/components/HistoricalData.vue -->
 <template>
-    <!-- <div v-if="loading" class="screen_loader fixed inset-0 z-[60] grid place-content-center bg-[#fafafa] dark:bg-[#060818]">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="200px"
-            height="200px"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="xMidYMid"
-        >
-            <circle cx="50" cy="50" r="0" fill="none" stroke="#47bdff" stroke-width="4">
-                <animate
-                    attributeName="r"
-                    repeatCount="indefinite"
-                    dur="1s"
-                    values="0;16"
-                    keyTimes="0;1"
-                    keySplines="0 0.2 0.8 1"
-                    calcMode="spline"
-                    begin="0s"
-                ></animate>
-                <animate
-                    attributeName="opacity"
-                    repeatCount="indefinite"
-                    dur="1s"
-                    values="1;0"
-                    keyTimes="0;1"
-                    keySplines="0.2 0 0.8 1"
-                    calcMode="spline"
-                    begin="0s"
-                ></animate>
-            </circle>
-            <circle cx="50" cy="50" r="0" fill="none" stroke="#b476e5" stroke-width="4">
-                <animate
-                    attributeName="r"
-                    repeatCount="indefinite"
-                    dur="1s"
-                    values="0;16"
-                    keyTimes="0;1"
-                    keySplines="0 0.2 0.8 1"
-                    calcMode="spline"
-                    begin="-0.5s"
-                ></animate>
-                <animate
-                    attributeName="opacity"
-                    repeatCount="indefinite"
-                    dur="1s"
-                    values="1;0"
-                    keyTimes="0;1"
-                    keySplines="0.2 0 0.8 1"
-                    calcMode="spline"
-                    begin="-0.5s"
-                ></animate>
-            </circle>
-        </svg>
-    </div> -->
     <div>
-      <h2>Historical Data Analysis</h2>
+      <!-- <h2>Historical Data Analysis</h2>
       <input type="date" v-model="startDate" />
       <input type="date" v-model="endDate" />
       <button @click="fetchHistoricalData">Fetch Data</button>
@@ -79,7 +23,75 @@
         <h3>Aggregated Data</h3>
         <p><strong>Total Logs:</strong> {{ aggregatedData.totalLogs }}</p>
         <p><strong>Average Actions Per Day:</strong> {{ aggregatedData.averageActionsPerDay.toFixed(2) }}</p>
-      </div>
+      </div> -->
+
+      <section class="bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20">
+        <div class="container">
+          <div class="mb-10">
+            <h6 class="mb-4 text-lg font-extrabold uppercase text-secondary">Historic Data</h6>
+            <h2 class="text-3xl font-black leading-tight text-black dark:text-white md:text-[40px]">Log Analysis</h2>
+          </div>
+
+          <div class="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark">
+            <div class="grid gap-10 sm:grid-cols-2">
+                <div class="relative">
+                    <input
+                        type="date" v-model="startDate"
+                        required
+                        class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                    />
+                    <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-gray-dark dark:text-white"
+                        >Start Date</label
+                    >
+                   
+                </div>
+                <div class="relative">
+                    <input
+                        type="date" v-model="endDate"
+                        required
+                        class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                    />
+                    <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-gray-dark dark:text-white"
+                        >End Date</label
+                    >
+                    
+                </div>                             
+            </div>                         
+            
+            <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
+                <button @click="fetchHistoricalData" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
+                  <span v-if="loading" class="flex items-center">
+                    <h1 class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-6 w-6 "></h1>
+                  <span class="ml-1">Fetching...</span>
+                </span>
+                <span v-else>Fetch Data</span>
+                </button>
+            </div>  
+            <div class="p-6">
+                <div v-if="actionCounts">
+                    <h3 class="mb-4 text-2xl font-bold">Action Counts</h3>
+                    <ul>
+                      <li v-for="(count, action) in actionCounts" :key="action">                           
+                        <p><strong> {{ action }}:</strong>  {{ count }}</p>
+                      </li>
+                    </ul>
+                </div>
+
+                <div v-if="trendData">
+                    <h3>Daily Trend Analysis</h3>
+                    <Line :data="trendChartData" :options="chartOptions" />
+                </div>
+
+                <div v-if="aggregatedData">
+                    <h3>Aggregated Data</h3>
+                    <p><strong>Total Logs:</strong> {{ aggregatedData.totalLogs }}</p>
+                    <p><strong>Average Actions Per Day:</strong> {{ aggregatedData.averageActionsPerDay.toFixed(2) }}</p>
+                </div> 
+            </div> 
+           
+            </div>                
+        </div>
+      </section>     
     </div>
 
   </template>
@@ -148,7 +160,7 @@
         this.loading = true;
         try {          
           const token = localStorage.getItem('token');
-          const response = await axios.get('http://localhost:5000/api/logs/historical-data', {
+          const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs/historical-data', {
             headers: {
               Authorization: `Bearer ${token}`
             },
@@ -156,6 +168,9 @@
               startDate: this.startDate,
               endDate: this.endDate
             }
+          });
+          this.$toast.info('Fetched successfully!!', {
+                  timeout: 5000, 
           });
   
           this.actionCounts = response.data.actionCounts;
@@ -177,6 +192,18 @@
   
   
   <style scoped>
-  /* Add any necessary styles here */
+  .loader {
+    border-top-color: #3498db;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
   </style>
   

@@ -30,7 +30,7 @@
       async fetchRealTimeData() {
         try {
           const token = localStorage.getItem('token');
-          const response = await axios.get('http://localhost:5000/api/monitoring/real-time-data',{
+          const response = await axios.get('https://ids-api-lgwc.onrender.com/api/monitoring/real-time-data',{
             headers: {
               Authorization: `Bearer ${token}`
             }

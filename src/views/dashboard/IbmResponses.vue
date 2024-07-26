@@ -168,7 +168,7 @@
         this.loading = true;
         try {
           const token = localStorage.getItem('token');
-          const response = await axios.get('http://localhost:5000/api/ibm-responses', {
+          const response = await axios.get('https://ids-api-lgwc.onrender.com/api/ibm-responses', {
             headers: {
               Authorization: `Bearer ${token}`,
             },
@@ -197,4 +197,20 @@
     },
   };
   </script>
+
+<style scoped>
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
   

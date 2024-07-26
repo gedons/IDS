@@ -122,7 +122,7 @@
          this.loading = true;
          try {
             const token = localStorage.getItem('token');
-            const response = await axios.get('http://localhost:5000/api/alerts', {
+            const response = await axios.get('https://ids-api-lgwc.onrender.com/api/alerts', {
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -144,7 +144,7 @@
         async viewAlert(alertId) {
           try {
             const token = localStorage.getItem('token');
-            const response = await axios.get(`http://localhost:5000/api/alerts/single/${alertId}`, {
+            const response = await axios.get(`https://ids-api-lgwc.onrender.com/api/alerts/single/${alertId}`, {
               headers: {
                 Authorization: `Bearer ${token}`,
               },

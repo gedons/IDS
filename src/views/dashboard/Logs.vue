@@ -245,7 +245,7 @@
         try {
           this.sloading = true;
           const token = localStorage.getItem('token');
-          await axios.post('http://localhost:5000/api/logs', this.newLog, {
+          await axios.post('https://ids-api-lgwc.onrender.com/api/logs', this.newLog, {
             headers: {
               Authorization: `Bearer ${token}`
             }
@@ -264,7 +264,7 @@
       async viewAlerts(logId) {
           try {
               const token = localStorage.getItem('token');
-              const response = await axios.get(`http://localhost:5000/api/alerts/${logId}`, {
+              const response = await axios.get(`https://ids-api-lgwc.onrender.com/api/alerts/${logId}`, {
                   headers: {
                       Authorization: `Bearer ${token}`
                   }
@@ -283,7 +283,7 @@
         try {
           this.loading = true;
           const token = localStorage.getItem('token');
-          const response = await axios.get('http://localhost:5000/api/logs', {
+          const response = await axios.get('https://ids-api-lgwc.onrender.com/api/logs', {
             headers: {
               Authorization: `Bearer ${token}`
             }
@@ -304,7 +304,7 @@
       async deleteLog(id) {
         try {
           const token = localStorage.getItem('token');
-          await axios.delete(`http://localhost:5000/api/logs/${id}`, {
+          await axios.delete(`https://ids-api-lgwc.onrender.com/api/logs/${id}`, {
             headers: { Authorization: `Bearer ${token}` },
           });
           this.$toast.info('Deleted successfully!!', {
