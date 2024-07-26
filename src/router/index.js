@@ -6,6 +6,8 @@ import Dashboard from '../views/dashboard/Dashboard.vue';
 import Logs from '../views/dashboard/Logs.vue';
 import Alerts from '../views/dashboard/Alerts.vue';
 import IbmResponses from '../views/dashboard/IbmResponses.vue';
+import HistoricalData from '../views/dashboard/HistoricalData.vue';
+import RealTimeMonitoring from '../views/dashboard/RealTimeMonitoring.vue';
 
 
 
@@ -26,6 +28,14 @@ const routes = [
       {
         path: 'ibm-responses',
         component: IbmResponses
+      },
+      {
+        path: 'historic-data',
+        component: HistoricalData
+      },
+      {
+        path: 'realtime-monitoring',
+        component: RealTimeMonitoring
       }
     ],
   }

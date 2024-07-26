@@ -250,7 +250,7 @@
               Authorization: `Bearer ${token}`
             }
           });
-          this.$toast.info('Log added successfully. Check the Alerts and Detected Anomalies for the Log', { timeout: 5000 });
+          this.$toast.info('Log added successfully. Check the Alerts and Responses Page for the Log', { timeout: 11000 });
           this.fetchLogs(); 
           this.resetForm();
         } catch (error) {
@@ -291,6 +291,10 @@
           this.logs = response.data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
         } catch (error) {
           console.error('Error fetching logs:', error);
+              const errorMessage = error.response && error.response.data && error.response.data.message
+                  ? error.response.data.message
+                  : 'An unexpected error occurred';
+              this.$toast.info(errorMessage, { timeout: 11000 });
         } finally {
           this.loading = false;
         }

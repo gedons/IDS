@@ -31,8 +31,14 @@
                                       <a class="cursor-pointer" @click="showComponent('Alerts')">Alerts</a>
                                   </li>
                                   <li>
-                                      <a class="cursor-pointer" @click="showComponent('IbmResponses')">Advance Response</a>
+                                      <a class="cursor-pointer" @click="showComponent('IbmResponses')">Responses</a>
                                   </li>
+                                  <li>
+                                    <a class="cursor-pointer" @click="showComponent('HistoricalData')">Historical Data</a>
+                                </li>
+                                <li>
+                                  <a class="cursor-pointer" @click="showComponent('RealTimeMonitoring')">RealTime Monitoring</a>
+                                </li>
                                   <li>
                                       <a class="cursor-pointer" @click="logout">Logout</a>
                                   </li>                                    
@@ -132,6 +138,8 @@
 import Logs from '../../views/dashboard/Logs.vue';
 import Alerts from '../../views/dashboard/Alerts.vue';
 import IbmResponses from '../../views/dashboard/IbmResponses.vue';
+import HistoricalData from '../../views/dashboard/HistoricalData.vue';
+import RealTimeMonitoring from '../../views/dashboard/RealTimeMonitoring.vue';
 import axios from 'axios';
 
 export default {
@@ -203,7 +211,8 @@ export default {
     Logs,
     Alerts,
     IbmResponses,
-
+    HistoricalData,
+    RealTimeMonitoring
   },
 };
 </script>
