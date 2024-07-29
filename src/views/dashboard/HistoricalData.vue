@@ -1,30 +1,5 @@
 <template>
     <div>
-      <!-- <h2>Historical Data Analysis</h2>
-      <input type="date" v-model="startDate" />
-      <input type="date" v-model="endDate" />
-      <button @click="fetchHistoricalData">Fetch Data</button>
-      
-      <div v-if="actionCounts">
-        <h3>Action Counts</h3>
-        <ul>
-          <li v-for="(count, action) in actionCounts" :key="action">
-            {{ action }}: {{ count }}
-          </li>
-        </ul>
-      </div>
-      
-      <div v-if="trendData">
-        <h3>Daily Trend Analysis</h3>
-        <Line :data="trendChartData" :options="chartOptions" />
-      </div>
-      
-      <div v-if="aggregatedData">
-        <h3>Aggregated Data</h3>
-        <p><strong>Total Logs:</strong> {{ aggregatedData.totalLogs }}</p>
-        <p><strong>Average Actions Per Day:</strong> {{ aggregatedData.averageActionsPerDay.toFixed(2) }}</p>
-      </div> -->
-
       <section class="bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20">
         <div class="container">
           <div class="mb-10">
