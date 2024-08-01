@@ -54,16 +54,7 @@
             ></animate>
         </circle>
     </svg>
-   </div>
-    <!-- <div v-else>
-      <h2>Anomalies Responses</h2>
-      <div v-if="ibmResponses.length === 0">No IBM responses available</div>
-      <ul>
-        <li v-for="response in ibmResponses" :key="response._id">
-          {{ response.ip }}: {{ response.reasonDescription }}
-        </li>
-      </ul>
-    </div> -->
+   </div>    
 
     <div v-else>
       <section class="bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20">
@@ -102,19 +93,19 @@
       </section>
 
        <!-- Modal -->
-      <div v-if="showModal" class="fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-gray-900 bg-opacity-50">
+      <div v-if="showModal" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
         <div class="relative w-11/12 max-w-3xl p-5 bg-white rounded shadow-lg dark:bg-gray-800">
           <button @click="closeModal" class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 dark:text-gray-200">✖</button>
           <div class="p-6">
             <h2 class="mb-4 text-2xl font-bold">Response Details</h2>
-            <p><strong>IP:</strong> {{ selectedResponse.response.ip }}</p>
+            <!-- <p><strong>IP:</strong> {{ selectedResponse.response.ip }}</p> -->
             <p><strong>Score:</strong> {{ selectedResponse.response.score }}</p>
             <p><strong>Reason:</strong> {{ selectedResponse.response.reason }}</p>
             <p><strong>Country:</strong> {{ selectedResponse.response.geo.country }}</p>
             <p><strong>Country Code:</strong> {{ selectedResponse.response.geo.countrycode }}</p>
             <p><strong>Category:</strong> {{ selectedResponse.response.categoryDescriptions['Dynamic IPs'] }}</p>
             
-            <!-- <div v-if="selectedResponse.response.history.length">
+             <div v-if="selectedResponse.response.history.length">
               <h3 class="mt-4 text-xl font-semibold">History</h3>
               <ul>
                 <li v-for="history in selectedResponse.response.history" :key="history.created">
@@ -128,7 +119,7 @@
               </ul>
             </div>
             
-            <!-- <div v-if="selectedResponse.response.subnets.length">
+            <div v-if="selectedResponse.response.subnets.length">
               <h3 class="mt-4 text-xl font-semibold">Subnets</h3>
               <ul>
                 <li v-for="subnet in selectedResponse.response.subnets" :key="subnet.created">
@@ -141,7 +132,7 @@
                   <p><strong>Subnet:</strong> {{ subnet.subnet }}</p>
                 </li>
               </ul>
-            </div> -->
+            </div> 
           </div>
         </div>
       </div>
