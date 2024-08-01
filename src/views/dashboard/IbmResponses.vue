@@ -113,7 +113,7 @@
                   <p><strong>Reason:</strong> {{ history.reason }}</p>
                   <p><strong>Score:</strong> {{ history.score }}</p>
                   <!-- <p><strong>Country:</strong> {{ history.geo.country }}</p> -->
-                  <p><strong>Country Code:</strong> {{ history.geo.countrycode }}</p>
+                  <!-- <p><strong>Country Code:</strong> {{ history.geo.countrycode }}</p> -->
                   <p><strong>IP:</strong> {{ history.ip }}</p>
                 </li>
               </ul>
