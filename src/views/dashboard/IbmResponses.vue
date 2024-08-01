@@ -95,7 +95,7 @@
        <!-- Modal -->
       <div v-if="showModal" class="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
         <div class="relative w-11/12 max-w-3xl p-5 bg-white rounded shadow-lg dark:bg-gray-800">
-          <button @click="closeModal" class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 dark:text-gray-200">✖</button>
+          <button @click="closeModal" class="absolute top-0 right-0 mt-2 mr-4 text-gray-600 dark:text-gray-200">✖</button>
           <div class="p-6">
             <h2 class="mb-4 text-2xl font-bold">Response Details</h2>
             <p><strong>IP:</strong> {{ selectedResponse.response.ip }}</p>
