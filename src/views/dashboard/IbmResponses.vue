@@ -98,12 +98,12 @@
           <button @click="closeModal" class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 dark:text-gray-200">✖</button>
           <div class="p-6">
             <h2 class="mb-4 text-2xl font-bold">Response Details</h2>
-            <!-- <p><strong>IP:</strong> {{ selectedResponse.response.ip }}</p> -->
+            <p><strong>IP:</strong> {{ selectedResponse.response.ip }}</p>
             <p><strong>Score:</strong> {{ selectedResponse.response.score }}</p>
             <p><strong>Reason:</strong> {{ selectedResponse.response.reason }}</p>
             <p><strong>Country:</strong> {{ selectedResponse.response.geo.country }}</p>
             <p><strong>Country Code:</strong> {{ selectedResponse.response.geo.countrycode }}</p>
-            <p><strong>Category:</strong> {{ selectedResponse.response.categoryDescriptions['Dynamic IPs'] }}</p>
+            <!-- <p><strong>Category:</strong> {{ selectedResponse.response.categoryDescriptions['Dynamic IPs'] }}</p> -->
             
              <div v-if="selectedResponse.response.history.length">
               <h3 class="mt-4 text-xl font-semibold">History</h3>
@@ -112,7 +112,7 @@
                   <p><strong>Created:</strong> {{ new Date(history.created).toLocaleString() }}</p>
                   <p><strong>Reason:</strong> {{ history.reason }}</p>
                   <p><strong>Score:</strong> {{ history.score }}</p>
-                  <p><strong>Country:</strong> {{ history.geo.country }}</p>
+                  <!-- <p><strong>Country:</strong> {{ history.geo.country }}</p> -->
                   <p><strong>Country Code:</strong> {{ history.geo.countrycode }}</p>
                   <p><strong>IP:</strong> {{ history.ip }}</p>
                 </li>
@@ -126,7 +126,7 @@
                   <p><strong>Created:</strong> {{ new Date(subnet.created).toLocaleString() }}</p>
                   <p><strong>Reason:</strong> {{ subnet.reason }}</p>
                   <p><strong>Score:</strong> {{ subnet.score }}</p>
-                  <p><strong>Country:</strong> {{ subnet.geo.country }}</p>
+                  <!-- <p><strong>Country:</strong> {{ subnet.geo.country }}</p> -->
                   <p><strong>Country Code:</strong> {{ subnet.geo.countrycode }}</p>
                   <p><strong>IP:</strong> {{ subnet.ip }}</p>
                   <p><strong>Subnet:</strong> {{ subnet.subnet }}</p>
