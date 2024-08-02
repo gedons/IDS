@@ -567,7 +567,7 @@
                             <p class="h-10 text-4xl text-secondary">SecureNet</p>
                             <ul class="mt-12 flex items-center gap-8">                               
                                 <li>
-                                    <a href="https://www.Instagram.com/the_gaffer.x" target="_blank">
+                                    <a href="https://www.Instagram.com/direct/t/the_gaffer.x" target="_blank">
                                         <svg
                                             width="23"
                                             height="22"
